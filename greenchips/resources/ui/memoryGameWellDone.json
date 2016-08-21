@@ -1,0 +1,299 @@
+{
+	"enhancedScene": {
+		"class" : "GuiDiv",
+		"params" : {
+			"parent" : "#root",
+			"background": {
+				"image" : "background.png"
+			},
+			"style" : "enhancedScene",
+			"enhancedScene" : true
+		}
+	},
+	"menuContainer": {
+		"class" : "GuiDiv",
+		"params" : {
+			"parent" : "enhancedScene",
+			"style" : "mainScene",
+			"innerScene" : true
+		}
+	},
+	"goldenChips": {
+		"class" : "GuiFrame",
+		"params" : {
+			"parent" : "menuContainer",
+			"normal" : {
+				"image" : "greenChips.png"
+			},
+			"attachedDiv" : "global_ad_id1",
+			"originalWidth" : 320,
+			"style" : "dialogButton",
+			"width" : 520,
+			"height" : 81,
+			"x" : "50%",
+			"y" : 0,
+			"offsetX" : -260
+		}
+	}, 
+	"wellDone": {
+		"class" : "GuiDiv",
+		"params" : {
+			"parent" : "menuContainer",
+			"background" : {
+				"image" : "wellDone.png"
+			},
+			"style" : "dialogButton",
+			"width" : 351,
+			"height" : 260,
+			"x" : 65,
+			"y" : 95
+		}
+	}, 
+	"menu": {
+		"class" : "GuiButton",
+		"params" : {
+			"parent" : "menuContainer",
+			"normal" : {
+				"image" : "menu.png"
+			},
+			"hover" : {
+				"image" : "menu.png",
+				"scale" : 105
+			},
+			"active" : {
+				"image" : "menu.png",
+				"scale" : 120
+			},
+			"style" : "dialogButton",
+			"width" : 181,
+			"height" : 84,
+			"x" : 100,
+			"y" : 360
+		}
+	}, 
+	"playAgain": {
+		"class" : "GuiButton",
+		"params" : {
+			"parent" : "menuContainer",
+			"normal" : {
+				"image" : "playAgain.png"
+			},
+			"hover" : {
+				"image" : "playAgain.png",
+				"scale" : 105
+			},
+			"active" : {
+				"image" : "playAgain.png",
+				"scale" : 120
+			},
+			"style" : "dialogButton",
+			"width" : 304,
+			"height" : 84,
+			"x" : 495,
+			"y" : 360
+		}
+	}, 	
+	"scoreLabel": {
+		"class" : "GuiLabel",
+		"params" : {
+			"parent" : "menuContainer",
+			"style" : "dialogButton paytone-normal",
+			"width" : 166,
+			"height" : 58,
+			"x" : 433,
+			"y" : 120,
+			"text" : "SCORE",
+			"fontSize" : 36,
+			"align" : "center", 
+			"verticalAlign" : "middle",
+			"color" : "#E4CAA4"
+		}
+	}, 	
+	"luckyLabel": {
+		"class" : "GuiLabel",
+		"params" : {
+			"parent" : "menuContainer",
+			"style" : "dialogButton paytone-normal",
+			"width" : 166,
+			"height" : 58,
+			"x" : 433,
+			"y" : 177,
+			"text" : "LUCKY",
+			"fontSize" : 36,
+			"align" : "center", 
+			"verticalAlign" : "middle",
+			"color" : "#E4CAA4"
+		}
+	}, 	
+	"bonusLabel": {
+		"class" : "GuiLabel",
+		"params" : {
+			"parent" : "menuContainer",
+			"style" : "dialogButton paytone-normal",
+			"width" : 166,
+			"height" : 58,
+			"x" : 433,
+			"y" : 213,
+			"text" : "BONUS",
+			"fontSize" : 36,
+			"align" : "center", 
+			"verticalAlign" : "middle",
+			"color" : "#E4CAA4"
+		}
+	}, 	
+	"totalLabel": {
+		"class" : "GuiLabel",
+		"params" : {
+			"parent" : "menuContainer",
+			"style" : "dialogButton paytone-normal",
+			"width" : 166,
+			"height" : 58,
+			"x" : 433,
+			"y" : 277,
+			"text" : "TOTAL",
+			"fontSize" : 36,
+			"align" : "center", 
+			"verticalAlign" : "middle",
+			"color" : "#E4CAA4"
+		}
+	}, 
+	"scoreImage": {
+		"class" : "GuiDiv",
+		"params" : {
+			"parent" : "menuContainer",
+			"background" : {
+				"image" : "score.png"
+			},
+			"style" : "dialogButton",
+			"width" : 159,
+			"height" : 67,
+			"x" : 600,
+			"y" : 115
+		}
+	}, 
+	"luckyBonusImage": {
+		"class" : "GuiDiv",
+		"params" : {
+			"parent" : "menuContainer",
+			"background" : {
+				"image" : "score.png"
+			},
+			"style" : "dialogButton",
+			"width" : 159,
+			"height" : 67,
+			"x" : 600,
+			"y" : 195
+		}
+	}, 
+	"totalImage": {
+		"class" : "GuiDiv",
+		"params" : {
+			"parent" : "menuContainer",
+			"background" : {
+				"image" : "score.png"
+			},
+			"style" : "dialogButton",
+			"width" : 159,
+			"height" : 67,
+			"x" : 600,
+			"y" : 275
+		}
+	}, 
+	"pattern": {
+		"class" : "GuiDiv",
+		"params" : {
+			"parent" : "menuContainer",
+			"background" : {
+				"image" : "pattern.png"
+			},
+			"style" : "dialogButton",
+			"width" : 162,
+			"height" : 75,
+			"x" : 319,
+			"y" : 360
+		}
+	},
+	"score": {
+		"class" : "GuiLabel",
+		"params" : {
+			"parent" : "menuContainer",
+			"style" : "dialogButton lcdmono-ultra",
+			"width" : 128,
+			"height" : 47,
+			"x" : 605,
+			"y" : 123,
+			"text" : "0",
+			"fontSize" : 36,
+			"align" : "right", 
+			"verticalAlign" : "middle",
+			"color" : "#00FF00"
+		}
+	},
+	"luckyBonus": {
+		"class" : "GuiLabel",
+		"params" : {
+			"parent" : "menuContainer",
+			"style" : "dialogButton lcdmono-ultra",
+			"width" : 128,
+			"height" : 47,
+			"x" : 605,
+			"y" : 205,
+			"text" : "0",
+			"fontSize" : 36,
+			"align" : "right", 
+			"verticalAlign" : "middle",
+			"color" : "#00FF00"
+		}
+	},
+	"total": {
+		"class" : "GuiLabel",
+		"params" : {
+			"parent" : "menuContainer",
+			"style" : "dialogButton lcdmono-ultra",
+			"width" : 128,
+			"height" : 47,
+			"x" : 605,
+			"y" : 284,
+			"text" : "0",
+			"fontSize" : 36,
+			"align" : "right", 
+			"verticalAlign" : "middle",
+			"color" : "#00FF00"
+		}
+	},
+	"currentRecord": {
+		"class" : "GuiLabel",
+		"params" : {
+			"parent" : "menuContainer",
+			"style" : "dialogButton paytone-normal",
+			"width" : 351,
+			"height" : 100,
+			"x" : 65,
+			"y" : 260,
+			"text" : "RECORD: 0",
+			"fontSize" : 14,
+			"align" : "center", 
+			"verticalAlign" : "middle",
+			"color" : "#FFFFFF",
+			"opacity" : "0.8"
+		}
+	},
+	"recordNew": {
+		"class" : "GuiLabel",
+		"params" : {
+			"parent" : "menuContainer",
+			"style" : "dialogButton paytone-normal",
+			"width" : 228,
+			"height" : 147,
+			"x" : 140,
+			"y" : 190,
+			"text" : "new  record",
+			"fontSize" : 36,
+			"align" : "center", 
+			"verticalAlign" : "middle",
+			"color" : "#FF0000",
+			"opacity" : "0.8",
+			"hide" : true
+		}
+	}
+}

@@ -1,0 +1,84 @@
+{
+	"enhancedScene": {
+		"class" : "GuiDiv",
+		"params" : {
+			"parent" : "#root",
+			"background": {
+				"image" : "background.png"
+			},
+			"style" : "enhancedScene",
+			"enhancedScene" : true
+		}
+	},
+	"menuContainer": {
+		"class" : "GuiDiv",
+		"params" : {
+			"parent" : "enhancedScene",
+			"style" : "mainScene",
+			"innerScene" : true
+		}
+	},
+	"goldenChips": {
+		"class" : "GuiButton",
+		"params" : {
+			"parent" : "menuContainer",
+			"normal" : {
+				"image" : "greenChips.png"
+			},
+			"style" : "dialogButton",
+			"width" : 407,
+			"height" : 71,
+			"x" : 200,
+			"y" : 30
+		}
+	}, 
+	"pattern": {
+		"class" : "GuiFrame",
+		"params" : {
+			"parent" : "menuContainer",
+			"normal" : {
+				"image" : "pattern.png"
+			},
+			"attachedDiv" : "global_ad_id1",
+			"originalWidth" : 320,
+			"style" : "dialogButton",
+			"width" : 520,
+			"height" : 81,
+			"x" : "50%",
+			"y" : 381,
+			"offsetX" : -260 
+		}
+	}, 
+	"prepare": {
+		"class" : "GuiLabel",
+		"params" : {
+			"parent" : "menuContainer",
+			"style" : "dialogButton paytone-normal",
+			"width" : "BASE_WIDTH",
+			"height" : 54,
+			"x" : 0,
+			"y" : 118,
+			"text" : "PREPARE",
+			"fontSize" : 36,
+			"align" : "center", 
+			"verticalAlign" : "middle",
+			"color" : "#E4CAA4"
+		}
+	},
+	"findTheMatchingPairs": {
+		"class" : "GuiLabel",
+		"params" : {
+			"parent" : "menuContainer",
+			"style" : "dialogButton paytone-normal",
+			"width" : "BASE_WIDTH",
+			"height" : 54,
+			"x" : 0,
+			"y" : 325,
+			"align" : "center", 
+			"verticalAlign" : "middle",
+			"text" : "",
+			"fontSize" : 26,
+			"color" : "#E4CAA4"
+		}
+	}
+}

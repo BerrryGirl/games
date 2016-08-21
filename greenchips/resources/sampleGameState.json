@@ -1,0 +1,10 @@
+{
+    "Account01": {
+        "class": "Account",
+        "state": "MemoryGameMenuState01"
+    },
+    "MemoryGameMenuState01": {
+        "class": "MemoryGameMenuState",
+         "parent": "Account01"
+    }
+}

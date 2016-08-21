@@ -1,0 +1,51 @@
+/* 
+	Paytone One Fonts
+	http://www.google.com/webfonts/specimen/Paytone+One
+*/
+@font-face {
+	font-family: 'PaytoneOneRegular';
+	src: url('../fonts/paytoneone-webfont.eot');
+	src: url('../fonts/paytoneone-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'LCDMonoUltra';
+	src: url('../fonts/lcdmu-webfont.eot'); 
+	src: url('../fonts/lcdmu-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.paytone-normal {
+	font-family: PaytoneOneRegular;
+	color: white;
+	font-size: 1em;
+/* 	-webkit-text-stroke: 1px #333333; */
+	text-shadow: #333333 3px 3px 1px;
+}
+
+.lcdmono-ultra {
+	font-family: LCDMonoUltra;
+	color: white;
+	font-size: 1em;
+/* 	-webkit-text-stroke: 1px #000; */
+}
+
+.ie .paytone-normal {
+	color: white;
+	filter: progid:  DXImageTransform.Microsoft.dropshadow(  OffX=  -1, OffY=
+		 -1, Color=  #000000 ) progid:  DXImageTransform.Microsoft.dropshadow(
+		 OffX=  -1, OffY=  1, Color=  #000000 ) progid: 
+		DXImageTransform.Microsoft.dropshadow(  OffX=  -1, OffY=  0, Color= 
+		#000000 ) progid:  DXImageTransform.Microsoft.dropshadow(  OffX=  1,
+		OffY=  -1, Color=  #000000 ) progid: 
+		DXImageTransform.Microsoft.dropshadow(  OffX=  1, OffY=  1, Color= 
+		#000000 );
+}
+
+.gecko .paytone-normal{
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px
+		0 #000;
+}
