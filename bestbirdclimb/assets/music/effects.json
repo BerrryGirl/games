@@ -1,0 +1,35 @@
+{
+  "resources": [
+    "output.ogg",
+    "output.m4a",
+    "output.mp3",
+    "output.ac3"
+  ],
+  "spritemap": {
+    "click": {
+      "start": 0,
+      "end": 1.4628571428571429,
+      "loop": false
+    },
+    "diam": {
+      "start": 3,
+      "end": 3.809795918367347,
+      "loop": false
+    },
+    "jump": {
+      "start": 5,
+      "end": 5.914285714285715,
+      "loop": false
+    },
+    "die": {
+      "start": 7,
+      "end": 7.644240362811791,
+      "loop": false
+    },
+    "levelUp": {
+      "start": 9,
+      "end": 11.37501133786848,
+      "loop": false
+    }
+  }
+}
