@@ -1,0 +1,1 @@
+{"Block.0":{"class":"Block","parent":"Scene01","type":"BrickBox","x":419.91614255765205,"y":436.4093959731543,"angle":0},"Block.1":{"class":"Block","parent":"Scene01","type":"BrickHorWall","x":421.59329140461205,"y":397.8187919463087,"angle":0},"Player.0":{"class":"Player","parent":"Scene01","type":"Player","x":15,"y":383,"balls":3,"scores":[100,150,200],"angle":0}}

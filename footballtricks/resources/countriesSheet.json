@@ -1,0 +1,1150 @@
+{
+"frames": {
+	"Afghanistan.png": {
+		"frame": {"x":318, "y":164, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Albania.png": {
+		"frame": {"x":636, "y":328, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Algeria.png": {
+		"frame": {"x":636, "y":287, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"American Samoa.png": {
+		"frame": {"x":636, "y":246, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Andorra.png": {
+		"frame": {"x":636, "y":205, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Angola.png": {
+		"frame": {"x":636, "y":164, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Anguilla.png": {
+		"frame": {"x":636, "y":123, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Antarctica.png": {
+		"frame": {"x":636, "y":82, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Antigua & Barbuda.png": {
+		"frame": {"x":636, "y":41, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Arab League.png": {
+		"frame": {"x":636, "y":0, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Argentina.png": {
+		"frame": {"x":583, "y":697, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Armenia.png": {
+		"frame": {"x":583, "y":656, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Aruba.png": {
+		"frame": {"x":583, "y":615, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Australia.png": {
+		"frame": {"x":583, "y":574, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Austria.png": {
+		"frame": {"x":583, "y":533, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Azerbaijan.png": {
+		"frame": {"x":583, "y":492, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Bahamas.png": {
+		"frame": {"x":583, "y":451, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Bahrain.png": {
+		"frame": {"x":583, "y":410, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Bangladesh.png": {
+		"frame": {"x":583, "y":369, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Barbados.png": {
+		"frame": {"x":583, "y":328, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Belarus.png": {
+		"frame": {"x":583, "y":287, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Belgium.png": {
+		"frame": {"x":583, "y":246, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Belize.png": {
+		"frame": {"x":583, "y":205, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Benin.png": {
+		"frame": {"x":583, "y":164, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Bermuda.png": {
+		"frame": {"x":583, "y":123, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Bhutan.png": {
+		"frame": {"x":583, "y":82, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Bolivia.png": {
+		"frame": {"x":583, "y":41, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Bosn. & Herz..png": {
+		"frame": {"x":583, "y":0, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Botswana.png": {
+		"frame": {"x":530, "y":697, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Brazil.png": {
+		"frame": {"x":530, "y":656, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Brunei.png": {
+		"frame": {"x":530, "y":615, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Bulgaria.png": {
+		"frame": {"x":530, "y":574, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Burkina Faso.png": {
+		"frame": {"x":530, "y":533, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Burundi.png": {
+		"frame": {"x":530, "y":492, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Cambodja.png": {
+		"frame": {"x":530, "y":451, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Cameroon.png": {
+		"frame": {"x":530, "y":410, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Canada.png": {
+		"frame": {"x":530, "y":369, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Cape Verde.png": {
+		"frame": {"x":530, "y":328, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Cayman Islands.png": {
+		"frame": {"x":530, "y":287, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Central African Republic.png": {
+		"frame": {"x":530, "y":246, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Chad.png": {
+		"frame": {"x":530, "y":205, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Chile.png": {
+		"frame": {"x":530, "y":164, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"China.png": {
+		"frame": {"x":530, "y":123, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Colombia.png": {
+		"frame": {"x":530, "y":82, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Commonwealth.png": {
+		"frame": {"x":530, "y":41, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Comoros.png": {
+		"frame": {"x":530, "y":0, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Congo-Brazzaville.png": {
+		"frame": {"x":477, "y":697, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Congo-Kinshasa.png": {
+		"frame": {"x":477, "y":656, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Cook Islands.png": {
+		"frame": {"x":477, "y":615, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Costa Rica.png": {
+		"frame": {"x":477, "y":574, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Cote d'Ivoire.png": {
+		"frame": {"x":477, "y":533, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Cote.png": {
+		"frame": {"x":477, "y":533, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Croatia.png": {
+		"frame": {"x":477, "y":492, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Cuba.png": {
+		"frame": {"x":477, "y":451, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Cyprus.png": {
+		"frame": {"x":477, "y":410, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Czech Republic.png": {
+		"frame": {"x":477, "y":369, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Denmark.png": {
+		"frame": {"x":477, "y":328, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Djibouti.png": {
+		"frame": {"x":477, "y":287, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Dominica.png": {
+		"frame": {"x":477, "y":246, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Dominican Republic.png": {
+		"frame": {"x":477, "y":205, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Ecuador.png": {
+		"frame": {"x":477, "y":164, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Egypt.png": {
+		"frame": {"x":477, "y":123, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"El Salvador.png": {
+		"frame": {"x":477, "y":82, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"England.png": {
+		"frame": {"x":477, "y":41, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Equatorial Guinea.png": {
+		"frame": {"x":477, "y":0, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Eritrea.png": {
+		"frame": {"x":424, "y":697, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Estonia.png": {
+		"frame": {"x":424, "y":656, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Ethiopia.png": {
+		"frame": {"x":424, "y":615, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"European Union.png": {
+		"frame": {"x":424, "y":574, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Faroes.png": {
+		"frame": {"x":424, "y":533, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Fiji.png": {
+		"frame": {"x":424, "y":492, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Finland.png": {
+		"frame": {"x":424, "y":451, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"France.png": {
+		"frame": {"x":424, "y":410, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Gabon.png": {
+		"frame": {"x":424, "y":369, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Gambia.png": {
+		"frame": {"x":424, "y":328, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Georgia.png": {
+		"frame": {"x":424, "y":287, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Germany.png": {
+		"frame": {"x":424, "y":246, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Ghana.png": {
+		"frame": {"x":424, "y":205, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Gibraltar.png": {
+		"frame": {"x":424, "y":164, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Greece.png": {
+		"frame": {"x":424, "y":123, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Greenland.png": {
+		"frame": {"x":424, "y":82, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Grenada.png": {
+		"frame": {"x":424, "y":41, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Guadeloupe.png": {
+		"frame": {"x":424, "y":0, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Guam.png": {
+		"frame": {"x":371, "y":697, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Guatemala.png": {
+		"frame": {"x":371, "y":656, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Guernsey.png": {
+		"frame": {"x":371, "y":615, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Guinea-Bissau.png": {
+		"frame": {"x":371, "y":574, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Guinea.png": {
+		"frame": {"x":371, "y":533, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Guyana.png": {
+		"frame": {"x":371, "y":492, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Haiti.png": {
+		"frame": {"x":371, "y":451, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Honduras.png": {
+		"frame": {"x":371, "y":410, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Hong Kong.png": {
+		"frame": {"x":371, "y":369, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Hungary.png": {
+		"frame": {"x":371, "y":328, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Iceland.png": {
+		"frame": {"x":371, "y":287, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"India.png": {
+		"frame": {"x":371, "y":246, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Indonezia.png": {
+		"frame": {"x":371, "y":205, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Iran.png": {
+		"frame": {"x":371, "y":164, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Iraq.png": {
+		"frame": {"x":371, "y":123, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Ireland.png": {
+		"frame": {"x":371, "y":82, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Isle of Man.png": {
+		"frame": {"x":371, "y":41, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Israel.png": {
+		"frame": {"x":371, "y":0, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Italy.png": {
+		"frame": {"x":318, "y":697, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Jamaica.png": {
+		"frame": {"x":318, "y":656, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Japan.png": {
+		"frame": {"x":318, "y":615, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Jersey.png": {
+		"frame": {"x":318, "y":574, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Jordan.png": {
+		"frame": {"x":318, "y":533, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Kazakhstan.png": {
+		"frame": {"x":318, "y":492, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Kenya.png": {
+		"frame": {"x":318, "y":451, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Kiribati.png": {
+		"frame": {"x":318, "y":410, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Kosovo.png": {
+		"frame": {"x":318, "y":369, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Kuwait.png": {
+		"frame": {"x":318, "y":328, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Kyrgyzstan.png": {
+		"frame": {"x":318, "y":287, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Laos.png": {
+		"frame": {"x":318, "y":246, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Latvia.png": {
+		"frame": {"x":318, "y":205, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Lebanon.png": {
+		"frame": {"x":212, "y":410, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Lesotho.png": {
+		"frame": {"x":318, "y":123, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Liberia.png": {
+		"frame": {"x":318, "y":82, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Libya.png": {
+		"frame": {"x":318, "y":41, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Liechtenshein.png": {
+		"frame": {"x":318, "y":0, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Lithuania.png": {
+		"frame": {"x":265, "y":697, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Luxembourg.png": {
+		"frame": {"x":265, "y":656, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Macao.png": {
+		"frame": {"x":265, "y":615, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Macedonia.png": {
+		"frame": {"x":265, "y":574, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Madagascar.png": {
+		"frame": {"x":265, "y":533, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Malawi.png": {
+		"frame": {"x":265, "y":492, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Malaysia.png": {
+		"frame": {"x":265, "y":451, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Maldives.png": {
+		"frame": {"x":265, "y":410, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Mali.png": {
+		"frame": {"x":265, "y":369, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Malta.png": {
+		"frame": {"x":265, "y":328, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Marshall Islands.png": {
+		"frame": {"x":265, "y":287, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Martinique.png": {
+		"frame": {"x":265, "y":246, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Mauritania.png": {
+		"frame": {"x":265, "y":205, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Mauritius.png": {
+		"frame": {"x":265, "y":164, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Mexico.png": {
+		"frame": {"x":265, "y":123, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Micronesia.png": {
+		"frame": {"x":265, "y":82, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Moldova.png": {
+		"frame": {"x":265, "y":41, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Monaco.png": {
+		"frame": {"x":371, "y":205, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Mongolia.png": {
+		"frame": {"x":265, "y":0, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Montenegro.png": {
+		"frame": {"x":212, "y":697, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Montserrat.png": {
+		"frame": {"x":212, "y":656, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Morocco.png": {
+		"frame": {"x":212, "y":615, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Mozambique.png": {
+		"frame": {"x":212, "y":574, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Myanmar.png": {
+		"frame": {"x":212, "y":533, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Namibia.png": {
+		"frame": {"x":212, "y":492, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Nauru.png": {
+		"frame": {"x":212, "y":451, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Nepal.png": {
+		"frame": {"x":636, "y":369, "w":36, "h":42},
+		"spriteSourceSize": {"x":7,"y":3,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Netherlands Antilles.png": {
+		"frame": {"x":212, "y":369, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Netherlands.png": {
+		"frame": {"x":212, "y":328, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"New Caledonia.png": {
+		"frame": {"x":212, "y":287, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"New Zealand.png": {
+		"frame": {"x":212, "y":246, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Nicaragua.png": {
+		"frame": {"x":212, "y":205, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Niger.png": {
+		"frame": {"x":212, "y":164, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Nigeria.png": {
+		"frame": {"x":212, "y":123, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"North Korea.png": {
+		"frame": {"x":212, "y":82, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Northern Cyprus.png": {
+		"frame": {"x":212, "y":41, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Northern Ireland.png": {
+		"frame": {"x":212, "y":0, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Norway.png": {
+		"frame": {"x":159, "y":697, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Oman.png": {
+		"frame": {"x":159, "y":656, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Pakistan.png": {
+		"frame": {"x":159, "y":615, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Palau.png": {
+		"frame": {"x":159, "y":574, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Palestine.png": {
+		"frame": {"x":159, "y":533, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Panama.png": {
+		"frame": {"x":159, "y":492, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Papua New Guinea.png": {
+		"frame": {"x":159, "y":451, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Paraguay.png": {
+		"frame": {"x":159, "y":410, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Peru.png": {
+		"frame": {"x":159, "y":369, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Philippines.png": {
+		"frame": {"x":159, "y":328, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Poland.png": {
+		"frame": {"x":159, "y":287, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Portugal.png": {
+		"frame": {"x":159, "y":246, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Puerto Rico.png": {
+		"frame": {"x":159, "y":205, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Qatar.png": {
+		"frame": {"x":159, "y":164, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Red Cross.png": {
+		"frame": {"x":159, "y":123, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Reunion.png": {
+		"frame": {"x":159, "y":82, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Romania.png": {
+		"frame": {"x":159, "y":41, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Russia.png": {
+		"frame": {"x":159, "y":0, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Rwanda.png": {
+		"frame": {"x":106, "y":697, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Saint Lucia.png": {
+		"frame": {"x":106, "y":656, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Samoa.png": {
+		"frame": {"x":106, "y":615, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"San Marino.png": {
+		"frame": {"x":106, "y":574, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Sao Tome & Principe.png": {
+		"frame": {"x":106, "y":533, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Saudi Arabia.png": {
+		"frame": {"x":106, "y":492, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Scotland.png": {
+		"frame": {"x":106, "y":451, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Senegal.png": {
+		"frame": {"x":106, "y":410, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Serbia.png": {
+		"frame": {"x":106, "y":369, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Seychelles.png": {
+		"frame": {"x":106, "y":328, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Sierra Leone.png": {
+		"frame": {"x":106, "y":287, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Singapore.png": {
+		"frame": {"x":106, "y":246, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Slovakia.png": {
+		"frame": {"x":106, "y":205, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Slovenia.png": {
+		"frame": {"x":106, "y":164, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Solomon Islands.png": {
+		"frame": {"x":106, "y":123, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Somalia.png": {
+		"frame": {"x":106, "y":82, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Somaliland.png": {
+		"frame": {"x":106, "y":41, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"South Africa.png": {
+		"frame": {"x":106, "y":0, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"South Korea.png": {
+		"frame": {"x":53, "y":697, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Spain.png": {
+		"frame": {"x":53, "y":656, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Sri Lanka.png": {
+		"frame": {"x":53, "y":615, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"St Kitts & Nevis.png": {
+		"frame": {"x":53, "y":574, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"St Vincent & the Grenadines.png": {
+		"frame": {"x":53, "y":533, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Sudan.png": {
+		"frame": {"x":53, "y":492, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Suriname.png": {
+		"frame": {"x":53, "y":451, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Swaziland.png": {
+		"frame": {"x":53, "y":410, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Sweden.png": {
+		"frame": {"x":53, "y":369, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Switzerland.png": {
+		"frame": {"x":53, "y":328, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Syria.png": {
+		"frame": {"x":53, "y":287, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Tahiti.png": {
+		"frame": {"x":53, "y":246, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Taiwan.png": {
+		"frame": {"x":53, "y":205, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Tajikistan.png": {
+		"frame": {"x":53, "y":164, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Tanzania.png": {
+		"frame": {"x":53, "y":123, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Thailand.png": {
+		"frame": {"x":53, "y":82, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Timor-Leste.png": {
+		"frame": {"x":53, "y":41, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Togo.png": {
+		"frame": {"x":53, "y":0, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Tonga.png": {
+		"frame": {"x":0, "y":697, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Trinidad & Tobago.png": {
+		"frame": {"x":0, "y":656, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Tunisia.png": {
+		"frame": {"x":0, "y":615, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Turkey.png": {
+		"frame": {"x":0, "y":574, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Turkmenistan.png": {
+		"frame": {"x":0, "y":533, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Turks and Caicos Islands.png": {
+		"frame": {"x":0, "y":492, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Tuvalu.png": {
+		"frame": {"x":0, "y":451, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"USA.png": {
+		"frame": {"x":0, "y":205, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Uganda.png": {
+		"frame": {"x":0, "y":410, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Ukraine.png": {
+		"frame": {"x":0, "y":369, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"United Arab Emirates.png": {
+		"frame": {"x":0, "y":328, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"United Kingdom.png": {
+		"frame": {"x":0, "y":287, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Uruguay.png": {
+		"frame": {"x":0, "y":246, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Uzbekistan.png": {
+		"frame": {"x":0, "y":164, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Venezuela.png": {
+		"frame": {"x":0, "y":123, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Viet Nam.png": {
+		"frame": {"x":0, "y":82, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Wales.png": {
+		"frame": {"x":0, "y":41, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"Zambia.png": {
+		"frame": {"x":0, "y":0, "w":48, "h":36},
+		"spriteSourceSize": {"x":0,"y":6,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	}
+
+},
+"meta": {
+	"image": "countriesSheet.png",
+	"size": {"w": 689, "h": 738},
+	"scale": "1"
+}
+}

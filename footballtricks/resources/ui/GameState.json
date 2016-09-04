@@ -1,0 +1,571 @@
+{
+    "enhancedScene": {
+        "class": "GuiDiv",
+        "params": {
+            "parent": "#root",
+            "style": "enhancedScene",
+            "enhancedScene": true,
+			"hide" : true
+        }
+    },
+    "sceneContainer": {
+        "class": "GuiDiv",
+        "params": {
+            "parent": "enhancedScene",
+            "style": "mainScene",
+            "innerScene": true
+        }
+    },
+    "ballsInfo": {
+        "class": "GuiButton",
+        "params": {
+            "parent": "enhancedScene",
+            "normal": {
+                "image": "FinalArt/Menu/Game/Balls_A.png",
+                "label": {
+                    "style": "gameButton bowl-white",
+                    "text": "3",
+                    "fontSize": 30,
+                    "x": "65%",
+                    "y": "51%"
+                }
+            },
+            "hover": {
+                "image": "FinalArt/Menu/Game/Balls_A.png",
+                "scale": 115
+            },
+            "style": "gameButton",
+            "width": 132,
+            "height": 60,
+            "x": 160,
+            "y": 12
+        }
+    },
+    "score": {
+        "class": "GuiButton",
+        "params": {
+            "parent": "enhancedScene",
+            "normal": {
+                "image": "FinalArt/Menu/Game/scores.png",
+                "label": {
+                    "style": "gameButton bowl-white",
+                    "text": "0",
+                    "fontSize": 30,
+                    "y": "51%"
+                }
+            },
+            "hover": {
+                "image": "FinalArt/Menu/Game/scores.png",
+                "scale": 115
+            },
+            "style": "gameButton",
+            "width": 132,
+            "height": 60,
+            "x": 440,
+            "y": 15
+        }
+    },
+    "pauseBtn": {
+        "class": "GuiButton",
+        "params": {
+            "parent": "enhancedScene",
+            "normal": {
+                "image": "FinalArt/Menu/Game/pause.png"
+            },
+            "hover": {
+                "image": "FinalArt/Menu/Game/pause.png",
+                "scale": 115
+            },
+            "style": "gameButton",
+            "width": 126,
+            "height": 56,
+            "x": 10,
+            "y": 14
+        }
+    },
+    "pauseMenu": {
+        "class": "GuiDialog",
+        "params": {
+            "parent": "enhancedScene",
+            "style": "dialogButton",
+            "width": 260,
+            "height": 400,
+            "background": {
+                "image": "FinalArt/Menu/Game/SideMenu.png"
+            },
+            "animations": {
+                "open": [
+                    {
+                        "animate": {
+                            "actions": [
+                                ["left", "+=", 260]
+                            ],
+                            "time": 500
+                        }
+                    },
+                    {
+                        "final": {
+                            "x": 0
+                        }
+                    }
+                ],
+                "close": [
+                    {
+                        "animate": {
+                            "actions": [
+                                ["left", "-=", 260]
+                            ],
+                            "time": 500
+                        }
+                    },
+                    {
+                        "final": {
+                            "x": -260
+                        }
+                    }
+                ]
+            },
+            "x": -260,
+            "y": "50%",
+            "offsetY": -200
+        }
+    },
+    "levelInfo": {
+        "class": "GuiButton",
+        "params": {
+            "parent": "pauseMenu",
+            "normal": {
+                "image": "FinalArt/Menu/Game/scores.png",
+                "label": {
+                    "style": "gameButton bowl-white",
+                    "text": "",
+                    "fontSize": 30,
+                    "y": "53%"
+                }
+            },
+            "hover": {
+                "image": "FinalArt/Menu/Game/scores.png",
+                "scale": 115,
+                "label": {}
+            },
+            "style": "gameButton",
+            "width": 80,
+            "height": 36,
+            "x": 83,
+            "y": 14
+        }
+    },
+    "resume": {
+        "class": "GuiButton",
+        "params": {
+            "parent": "pauseMenu",
+            "normal": {
+                "image": "FinalArt/Menu/Button.png",
+                "label": {
+                    "style": "gameButton bowl-white-unboredered",
+                    "text": "resume",
+                    "fontSize": 28,
+                    "y": "51%"
+                }
+            },
+            "hover": {
+                "image": "FinalArt/Menu/Button.png",
+                "scale": 115,
+                "label": {}
+            },
+            "style": "gameButton",
+            "width": 166,
+            "height": 56,
+            "x": 40,
+            "y": 63
+        }
+    },
+    "restart": {
+        "class": "GuiButton",
+        "params": {
+            "parent": "pauseMenu",
+            "normal": {
+                "image": "FinalArt/Menu/Game/re-some.png"
+            },
+            "hover": {
+                "image": "FinalArt/Menu/Game/re-some.png",
+                "scale": 115
+            },
+            "style": "gameButton",
+            "width": 126,
+            "height": 56,
+            "x": 60,
+            "y": 149
+        }
+    },
+    "menu": {
+        "class": "GuiButton",
+        "params": {
+            "parent": "pauseMenu",
+            "normal": {
+                "image": "FinalArt/Menu/Button.png",
+                "label": {
+                    "style": "gameButton bowl-white-unboredered",
+                    "text": "menu",
+                    "fontSize": 28,
+                    "y": "51%"
+                }
+            },
+            "hover": {
+                "image": "FinalArt/Menu/Button.png",
+                "scale": 115,
+                "label": {}
+            },
+            "style": "gameButton",
+            "width": 166,
+            "height": 56,
+            "x": 40,
+            "y": 235
+        }
+    },
+    "soundOn": {
+        "class": "GuiButton",
+        "params": {
+            "parent": "pauseMenu",
+            "normal": {
+                "image": "FinalArt/Menu/Main/Live.png"
+            },
+            "hover": {
+                "image": "FinalArt/Menu/Main/Live.png",
+                "scale": 115
+            },
+            "style": "gameButton",
+            "width": 126,
+            "height": 56,
+            "x": 60,
+            "y": 321
+        }
+    },
+    "soundOff": {
+        "class": "GuiButton",
+        "params": {
+            "parent": "pauseMenu",
+            "normal": {
+                "image": "FinalArt/Menu/Main/Mute.png"
+            },
+            "hover": {
+                "image": "FinalArt/Menu/Main/Mute.png",
+                "scale": 115
+            },
+            "style": "gameButton",
+            "width": 126,
+            "height": 56,
+            "x": 60,
+            "y": 321
+        }
+    },
+    "endGameMenu": {
+        "class": "GuiDialog",
+        "params": {
+            "parent": "sceneContainer",
+            "style": "gameButton",
+            "image": "FinalArt/Menu/endGameMenu/CongratBG.png",
+            "width": 450,
+            "height": 300,
+            "x": "50%",
+            "y": "50%",
+            "offsetX": -225,
+            "offsetY": -150,
+            "z": 9999
+        }
+    },
+    "resultMessage": {
+        "class": "GuiButton",
+        "params": {
+            "parent": "endGameMenu",
+            "normal": {
+                "image": "FinalArt/Menu/endGameMenu/CongratTextField.png",
+                "label": {
+                    "style": "gameButton bowl-white-unboredered",
+                    "text": "congratulations",
+                    "fontSize": 28
+                }
+            },
+            "style": "gameButton",
+            "width": 328,
+            "height": 58,
+            "x": 58,
+            "y": 14
+        }
+    },
+    "stageMessage": {
+        "class": "GuiLabel",
+        "params": {
+            "parent": "endGameMenu",
+            "style": "gameButton bowl-white-unboredered",
+            "text": "groupStage",
+            "fontSize": 40,
+            "y": 115,
+            "x": "50%",
+            "width": 440,
+            "height": 80,
+            "offsetX": -220,
+            "align": "center",
+            "hide": true
+        }
+    },
+    "endMenuBtn": {
+        "class": "GuiButton",
+        "params": {
+            "parent": "endGameMenu",
+            "normal": {
+                "image": "FinalArt/Menu/Button.png",
+                "label": {
+                    "style": "gameButton bowl-white-unboredered",
+                    "text": "back",
+                    "fontSize": 28,
+                    "y": "51%"
+                }
+            },
+            "hover": {
+                "image": "FinalArt/Menu/Button.png",
+                "scale": 115,
+                "label": {
+                    "text": "back"
+                }
+            },
+            "style": "gameButton",
+            "width": 126,
+            "height": 56,
+            "x": 18,
+            "y": 205
+        }
+    },
+    "endReplyBtn": {
+        "class": "GuiButton",
+        "params": {
+            "parent": "endGameMenu",
+            "normal": {
+                "image": "FinalArt/Menu/Game/re-some.png"
+            },
+            "hover": {
+                "image": "FinalArt/Menu/Game/re-some.png",
+                "scale": 115
+            },
+            "style": "gameButton",
+            "width": 126,
+            "height": 56,
+            "x": 158,
+            "y": 205
+        }
+    },
+    "endNextBtn": {
+        "class": "GuiButton",
+        "params": {
+            "parent": "endGameMenu",
+            "normal": {
+                "image": "FinalArt/Menu/Game/play.png"
+            },
+            "hover": {
+                "image": "FinalArt/Menu/Game/play.png",
+                "scale": 115
+            },
+            "style": "gameButton",
+            "width": 126,
+            "height": 56,
+            "x": 298,
+            "y": 205
+        }
+    },
+    "star.0": {
+        "class": "GuiDiv",
+        "params": {
+            "parent": "endGameMenu",
+            "style": "gameButton",
+            "image": "FinalArt/Menu/endGameMenu/WinStarEmpty.png",
+            "width": 100,
+            "height": 100,
+            "x": 39,
+            "y": 86
+        }
+    },
+    "star.1": {
+        "class": "GuiDiv",
+        "params": {
+            "parent": "endGameMenu",
+            "style": "gameButton",
+            "image": "FinalArt/Menu/endGameMenu/WinStarEmpty.png",
+            "width": 100,
+            "height": 100,
+            "x": 169,
+            "y": 86
+        }
+    },
+    "star.2": {
+        "class": "GuiDiv",
+        "params": {
+            "parent": "endGameMenu",
+            "style": "gameButton",
+            "image": "FinalArt/Menu/endGameMenu/WinStarEmpty.png",
+            "width": 100,
+            "height": 100,
+            "x": 299,
+            "y": 86
+        }
+    },
+    "tutorialMenu": {
+        "class": "GuiDialog",
+        "params": {
+            "parent": "sceneContainer",
+            "background": {
+                "image": "FinalArt/Menu/endGameMenu/CongratBG.png"
+            },
+            "style": "dialog",
+            "width": 450,
+            "height": 300,
+            "x": "50%",
+            "y": "50%",
+            "offsetX": -225,
+            "offsetY": -150,
+            "z": 9997
+        }
+    },
+    "tutorialMenuLabel": {
+        "class": "GuiLabel",
+        "params": {
+            "parent": "tutorialMenu",
+            "style": "gameButton bowl-white-unboredered",
+            "text": "take_a_shot",
+            "fontSize": 40,
+            "y": 5,
+            "x": "50%",
+            "width": 440,
+            "height": 80,
+            "offsetX": -220,
+            "align": "center"
+        }
+    },
+    "tutorialFrame_0": {
+        "class": "GuiSprite",
+        "params": {
+            "parent": "tutorialMenu",
+            "width": 250,
+            "style": "sprite",
+            "height": 170,
+            "totalImage": "FinalArt/Tutorial/Tutorial.png",
+            "totalImageWidth": 1000,
+            "totalImageHeight": 170,
+            "totalTile": 1,
+            "spriteAnimations": {
+                "tutorial": {
+                    "frames": [ 0, 1, 2, 3  ],
+                    "row": 0
+                }
+            },
+            "x": 130,
+            "y": 70,
+            "z": 9998,
+            "hide": true
+        }
+    },
+    "tutorialEnd": {
+        "class": "GuiButton",
+        "params": {
+            "parent": "tutorialMenu",
+            "normal": {
+                "image": "FinalArt/Menu/Game/play.png"
+            },
+            "hover": {
+                "image": "FinalArt/Menu/Game/play.png",
+                "scale": 115
+            },
+            "style": "gameButton",
+            "width": 126,
+            "height": 56,
+            "x": "100%",
+            "y": "100%",
+            "offsetX": -145,
+            "offsetY": -77,
+            "z": 9999
+        }
+    },
+    "startMenu": {
+        "class": "GuiDialog",
+        "params": {
+            "parent": "sceneContainer",
+            "style": "gameButton",
+            "image": "FinalArt/Menu/Game/versus.png",
+            "width": 450,
+            "height": 300,
+            "x": "50%",
+            "y": "50%",
+            "offsetX": -225,
+            "offsetY": -150,
+            "z": 9999
+        }
+    },
+    "startMenuLabel": {
+        "class": "GuiLabel",
+        "params": {
+            "parent": "startMenu",
+            "style": "gameButton bowl-white-unboredered",
+            "width": 400,
+            "height": 20,
+            "x": 21,
+            "y": 25,
+            "text": "222222222",
+            "align": "center",
+            "fontSize": 30,
+            "color": "white"
+        }
+    },
+    "startOK": {
+        "class": "GuiButton",
+        "params": {
+            "parent": "startMenu",
+            "normal": {
+                "image": "FinalArt/Menu/Game/play.png"
+            },
+            "hover": {
+                "image": "FinalArt/Menu/Game/play.png",
+                "scale": 115
+            },
+            "style": "gameButton",
+            "width": 126,
+            "height": 56,
+            "x": 298,
+            "y": 205
+        }
+    },
+    "yourTeamLabel": {
+        "class": "GuiButton",
+        "params": {
+            "parent": "startMenu",
+            "normal": {
+                "label": {
+                    "style": "gameButton bowl-white-unboredered",
+                    "text": "222222222",
+                    "fontSize": 26
+                }
+            },
+            "style": "gameButton",
+            "width": 200,
+            "height": 20,
+            "x": -7,
+            "y": 100
+        }
+    },
+    "enemyTeamLabel": {
+        "class": "GuiButton",
+        "params": {
+            "parent": "startMenu",
+            "normal": {
+                "label": {
+                    "style": "gameButton bowl-white-unboredered",
+                    "text": "11111111",
+                    "fontSize": 26
+                }
+            },
+            "style": "gameButton",
+            "width": 200,
+            "height": 20,
+            "x": 238,
+            "y": 100
+        }
+    }
+}

@@ -1,0 +1,133 @@
+{
+    "enhancedScene": {
+        "class": "GuiDiv",
+        "params": {
+            "parent": "#root",
+            "background": {
+                "image": "FinalArt/Menu/LevelSelect/TestMenuBG.jpg"
+            },
+            "style": "enhancedScene",
+            "enhancedScene": true,
+			"hide" : true
+        }
+    },
+    "menuContainer": {
+        "class": "GuiDiv",
+        "params": {
+            "parent": "enhancedScene",
+            "style": "mainScene",
+            "innerScene": true
+        }
+    },
+    "menuStatic": {
+        "class": "GuiDiv",
+        "params": {
+            "parent": "menuContainer",
+            "width": 800,
+            "height": 500,
+            "x": 0,
+            "y": -10,
+            "style": "gameButton"
+        }
+    },
+    "slideContainer": {
+        "class": "GuiButton",
+        "params": {
+            "parent": "menuStatic",
+            "width": 3000,
+            "height": 500,
+            "x": 0,
+            "y": -10,
+            "style": "gameButton"
+        }
+    },
+    "menu": {
+        "class": "GuiButton",
+        "params": {
+            "parent": "menuContainer",
+            "normal": {
+                "image": "FinalArt/Menu/Button.png",
+                "label": {
+                    "style": "gameButton bowl-white-unboredered",
+                    "text": "menu",
+                    "fontSize": 28,
+                    "color": "#01B5FF",
+                    "y": "48%"
+                }
+            },
+            "hover": {
+                "image": "FinalArt/Menu/Button.png",
+                "scale": 115,
+                "label": {
+                    "style": "gameButton bowl-white-unboredered",
+                    "text": "menu",
+                    "fontSize": 28,
+                    "color": "#01B5FF"
+                }
+            },
+            "style": "gameButton",
+            "width": 166,
+            "height": 56,
+            "x": 4,
+            "y": 420
+        }
+    },
+    "arrowLeft": {
+        "class": "GuiButton",
+        "params": {
+            "parent": "menuStatic",
+            "normal": {
+                "image": "FinalArt/Menu/ArrowL.png",
+                "scale": 50
+            },
+            "hover": {
+                "image": "FinalArt/Menu/ArrowL.png",
+                "scale": 55
+            },
+            "style": "gameButton",
+            "width": 70,
+            "height": 150,
+            "x": 3,
+            "y": 175
+        }
+    },
+    "arrowRight": {
+        "class": "GuiButton",
+        "params": {
+            "parent": "menuStatic",
+            "normal": {
+                "image": "FinalArt/Menu/ArrowR.png",
+                "scale": 50
+            },
+            "hover": {
+                "image": "FinalArt/Menu/ArrowR.png",
+                "scale": 55
+            },
+            "style": "gameButton",
+            "width": 70,
+            "height": 150,
+            "x": 728,
+            "y": 175
+        }
+    },
+    "chooseYourCountry": {
+        "class": "GuiButton",
+        "params": {
+            "parent": "menuContainer",
+            "normal": {
+                "image": "FinalArt/Menu/LevelSelect/WordsBase.png",
+                "label": {
+                    "style": "gameButton bowl-white-unboredered",
+                    "text": "chooseYourCountry",
+                    "fontSize": 28,
+                    "y": "48%"
+                }
+            },
+            "style": "gameButton",
+            "width": 374,
+            "height": 40,
+            "x": 230,
+            "y": 13
+        }
+    }
+}

@@ -1,0 +1,1341 @@
+{
+    "Ground": {
+        "class": "Ground",
+        "visuals": {
+        },
+        "physics": {
+            "type": "Box",
+            "x": 0,
+            "y": 0,
+            "width": 1900,
+            "height": 50,
+            "static": true,
+            "restitution": 0.01,
+            "friction": 0.55,
+            "linearDamping": 0.06,
+            "material": "ground"
+        }
+    },
+
+    "MetalVerWall": {
+        "class": "Block",
+        "visuals": {
+            "box": {
+                "class": "GuiSprite",
+                "width": 42,
+                "height": 72,
+                "totalImage": "FinalArt/Blocks/Metal/Metal_002.png",
+                "totalImageWidth": 42,
+                "totalImageHeight": 72
+            }
+        },
+        "physics": {
+            "type": "Box",
+            "x": 10,
+            "y": 6,
+            "width": 21,
+            "height": 59,
+            "restitution": 0.3,
+            "linearDamping": 0.08,
+            "density": 0.4,
+            "friction": 0.05,
+            "static": true
+        },
+        "material": "metal"
+    },
+    "MetalHorWall": {
+        "class": "Block",
+        "visuals": {
+            "box": {
+                "class": "GuiSprite",
+                "width": 76,
+                "height": 32,
+                "totalImage": "FinalArt/Blocks/Metal/Metal_003.png",
+                "totalImageWidth": 76,
+                "totalImageHeight": 32
+            }
+        },
+        "physics": {
+            "type": "Box",
+            "x": 10,
+            "y": 6,
+            "width": 53,
+            "height": 20,
+            "restitution": 0.3,
+            "linearDamping": 0.08,
+            "density": 0.4,
+            "friction": 0.05,
+            "static": true
+        },
+        "material": "metal"
+    },
+    "MetalBox": {
+        "class": "Block",
+        "visuals": {
+            "box": {
+                "class": "GuiSprite",
+                "width": 76,
+                "height": 72,
+                "totalImage": "FinalArt/Blocks/Metal/Metal_001.png",
+                "totalImageWidth": 76,
+                "totalImageHeight": 72
+            }
+        },
+        "physics": {
+            "type": "Box",
+            "x": 11,
+            "y": 6,
+            "width": 56,
+            "height": 52,
+            "restitution": 0.3,
+            "linearDamping": 0.08,
+            "density": 0.4,
+            "friction": 0.05,
+            "static": true
+        },
+        "material": "metal"
+    },
+    "BrickVerWall": {
+        "class": "Block",
+        "visuals": {
+            "box": {
+                "class": "GuiSprite",
+                "width": 48,
+                "height": 78,
+                "totalImage": "FinalArt/Blocks/Brick/Brick2_Sheet.png",
+                "totalImageWidth": 624,
+                "totalImageHeight": 78,
+                "spriteAnimations": {
+                    "normal": {
+                        "frames": [0],
+                        "row": 0
+                    },
+                    "first": {
+                        "frames": [1],
+                        "row": 0
+                    },
+                    "second": {
+                        "frames": [2],
+                        "row": 0
+                    },
+                    "last": {
+                        "frames": [3],
+                        "row": 0
+                    },
+                    "dest": {
+                        "frames": [4, 5, 6, 7, 8, 9, 10, 11, 12],
+                        "row": 0
+                    }
+                }
+            }
+        },
+        "physics": {
+            "type": "Box",
+            "x": 15,
+            "y": 11,
+            "width": 18,
+            "height": 58,
+            "restitution": 0.3,
+            "linearDamping": 0.08,
+            "density": 0.3,
+            "friction": 0.05,
+            "health": 18,
+            "destructable": true,
+            "static": true,
+            "destructionLevels": [
+                {
+                    "minHealth": 18,
+                    "animName": "normal"
+                },
+                {
+                    "minHealth": 14,
+                    "animName": "first"
+                },
+                {
+                    "minHealth": 9,
+                    "animName": "second"
+                },
+                {
+                    "minHealth": 5,
+                    "animName": "last"
+                },
+                {
+                    "minHealth": 0,
+                    "animName": "dest"
+                }
+            ]
+        },
+        "builtInDestruction": true,
+        "material": "brick"
+    },
+    "BrickHorWall": {
+        "class": "Block",
+        "visuals": {
+            "box": {
+                "class": "GuiSprite",
+                "width": 84,
+                "height": 48,
+                "totalImage": "FinalArt/Blocks/Brick/Brick3_Sheet.png",
+                "totalImageWidth": 1092,
+                "totalImageHeight": 48,
+                "spriteAnimations": {
+                    "normal": {
+                        "frames": [0],
+                        "row": 0
+                    },
+                    "first": {
+                        "frames": [1],
+                        "row": 0
+                    },
+                    "second": {
+                        "frames": [2],
+                        "row": 0
+                    },
+                    "last": {
+                        "frames": [3],
+                        "row": 0
+                    },
+                    "dest": {
+                        "frames": [4, 5, 6, 7, 8, 9, 10, 11, 12],
+                        "row": 0
+                    }
+                }
+            }
+        },
+        "physics": {
+            "type": "Box",
+            "x": 13,
+            "y": 13,
+            "width": 57,
+            "height": 19,
+            "restitution": 0.3,
+            "linearDamping": 0.08,
+            "density": 0.3,
+            "friction": 0.05,
+            "health": 18,
+            "destructable": true,
+            "static": true,
+            "destructionLevels": [
+                {
+                    "minHealth": 18,
+                    "animName": "normal"
+                },
+                {
+                    "minHealth": 14,
+                    "animName": "first"
+                },
+                {
+                    "minHealth": 9,
+                    "animName": "second"
+                },
+                {
+                    "minHealth": 5,
+                    "animName": "last"
+                },
+                {
+                    "minHealth": 0,
+                    "animName": "dest"
+                }
+            ]
+        },
+        "builtInDestruction": true,
+        "material": "brick"
+    },
+    "BrickBox": {
+        "class": "Block",
+        "visuals": {
+            "box": {
+                "class": "GuiSprite",
+                "width": 84,
+                "height": 78,
+                "totalImage": "FinalArt/Blocks/Brick/Brick_Sheet.png",
+                "totalImageWidth": 1092,
+                "totalImageHeight": 78,
+                "spriteAnimations": {
+                    "normal": {
+                        "frames": [0],
+                        "row": 0
+                    },
+                    "first": {
+                        "frames": [1],
+                        "row": 0
+                    },
+                    "second": {
+                        "frames": [2],
+                        "row": 0
+                    },
+                    "last": {
+                        "frames": [3],
+                        "row": 0
+                    },
+                    "dest": {
+                        "frames": [4, 5, 6, 7, 8, 9, 10, 11, 12],
+                        "row": 0
+                    }
+                }
+            }
+        },
+        "physics": {
+            "type": "Box",
+            "x": 13,
+            "y": 10,
+            "width": 54,
+            "height": 58,
+            "restitution": 0.3,
+            "linearDamping": 0.08,
+            "density": 0.3,
+            "friction": 0.05,
+            "health": 18,
+            "destructable": true,
+            "static": true,
+            "destructionLevels": [
+                {
+                    "minHealth": 18,
+                    "animName": "normal"
+                },
+                {
+                    "minHealth": 14,
+                    "animName": "first"
+                },
+                {
+                    "minHealth": 9,
+                    "animName": "second"
+                },
+                {
+                    "minHealth": 5,
+                    "animName": "last"
+                },
+                {
+                    "minHealth": 0,
+                    "animName": "dest"
+                }
+            ]
+        },
+        "builtInDestruction": true,
+        "material": "brick"
+    },
+
+    "WoodenVerWall": {
+        "class": "Block",
+        "visuals": {
+            "box": {
+                "class": "GuiSprite",
+                "width": 48,
+                "height": 78,
+                "totalImage": "FinalArt/Blocks/Wood/Wood2_Sheet.png",
+                "totalImageWidth": 576,
+                "totalImageHeight": 78,
+                "spriteAnimations": {
+                    "normal": {
+                        "frames": [0],
+                        "row": 0
+                    },
+                    "first": {
+                        "frames": [1],
+                        "row": 0
+                    },
+                    "last": {
+                        "frames": [2],
+                        "row": 0
+                    },
+                    "dest": {
+                        "frames": [3, 4, 5, 6, 7, 8, 9, 10, 11],
+                        "row": 0
+                    }
+                }
+            }
+        },
+        "physics": {
+            "type": "Box",
+            "x": 15,
+            "y": 11,
+            "width": 18,
+            "height": 58,
+            "restitution": 0.3,
+            "linearDamping": 0.08,
+            "density": 0.2,
+            "friction": 0.05,
+            "health": 16,
+            "destructable": true,
+            "static": true,
+            "destructionLevels": [
+                {
+                    "minHealth": 17,
+                    "animName": "normal"
+                },
+                {
+                    "minHealth": 11,
+                    "animName": "first"
+                },
+                {
+                    "minHealth": 5,
+                    "animName": "last"
+                },
+                {
+                    "minHealth": 0,
+                    "animName": "dest"
+                }
+            ]
+        },
+        "builtInDestruction": true,
+        "material": "wood"
+    },
+    "WoodenHorWall": {
+        "class": "Block",
+        "visuals": {
+            "box": {
+                "class": "GuiSprite",
+                "width": 84,
+                "height": 48,
+                "totalImage": "FinalArt/Blocks/Wood/Wood3_Sheet.png",
+                "totalImageWidth": 1008,
+                "totalImageHeight": 48,
+                "spriteAnimations": {
+                    "normal": {
+                        "frames": [0],
+                        "row": 0
+                    },
+                    "first": {
+                        "frames": [1],
+                        "row": 0
+                    },
+                    "last": {
+                        "frames": [2],
+                        "row": 0
+                    },
+                    "dest": {
+                        "frames": [3, 4, 5, 6, 7, 8, 9, 10, 11],
+                        "row": 0
+                    }
+                }
+            }
+        },
+        "physics": {
+            "type": "Box",
+            "x": 13,
+            "y": 13,
+            "width": 58,
+            "height": 19,
+            "restitution": 0.3,
+            "linearDamping": 0.08,
+            "density": 0.2,
+            "friction": 0.05,
+            "health": 16,
+            "destructable": true,
+            "static": true,
+            "destructionLevels": [
+                {
+                    "minHealth": 17,
+                    "animName": "normal"
+                },
+                {
+                    "minHealth": 11,
+                    "animName": "first"
+                },
+                {
+                    "minHealth": 5,
+                    "animName": "last"
+                },
+                {
+                    "minHealth": 0,
+                    "animName": "dest"
+                }
+            ]
+        },
+        "builtInDestruction": true,
+        "material": "wood"
+    },
+    "WoodenBox": {
+        "class": "Block",
+        "visuals": {
+            "box": {
+                "class": "GuiSprite",
+                "width": 84,
+                "height": 78,
+                "totalImage": "FinalArt/Blocks/Wood/Wood_Sheet.png",
+                "totalImageWidth": 1008,
+                "totalImageHeight": 78,
+                "spriteAnimations": {
+                    "normal": {
+                        "frames": [0],
+                        "row": 0
+                    },
+                    "first": {
+                        "frames": [1],
+                        "row": 0
+                    },
+                    "last": {
+                        "frames": [2],
+                        "row": 0
+                    },
+                    "dest": {
+                        "frames": [3, 4, 5, 6, 7, 8, 9, 10, 11],
+                        "row": 0
+                    }
+                }
+            }
+        },
+        "physics": {
+            "type": "Box",
+            "x": 13,
+            "y": 10,
+            "width": 54,
+            "height": 58,
+            "restitution": 0.3,
+            "linearDamping": 0.08,
+            "density": 0.2,
+            "friction": 0.05,
+            "health": 16,
+            "destructable": true,
+            "static": true,
+            "destructionLevels": [
+                {
+                    "minHealth": 16,
+                    "animName": "normal"
+                },
+                {
+                    "minHealth": 11,
+                    "animName": "first"
+                },
+                {
+                    "minHealth": 5,
+                    "animName": "last"
+                },
+                {
+                    "minHealth": 0,
+                    "animName": "dest"
+                }
+            ]
+        },
+        "builtInDestruction": true,
+        "material": "wood"
+    },
+
+    "GlassVerWall": {
+        "class": "Block",
+        "visuals": {
+            "box": {
+                "class": "GuiSprite",
+                "width": 48,
+                "height": 78,
+                "totalImage": "FinalArt/Blocks/Glass/Glass2_Sheet.png",
+                "totalImageWidth": 528,
+                "totalImageHeight": 78,
+                "spriteAnimations": {
+                    "normal": {
+                        "frames": [0],
+                        "row": 0
+                    },
+                    "last": {
+                        "frames": [1],
+                        "row": 0
+                    },
+                    "dest": {
+                        "frames": [2, 3, 4, 5, 6, 7, 8, 9],
+                        "row": 0
+                    }
+                }
+            }
+        },
+        "physics": {
+            "type": "Box",
+            "x": 15,
+            "y": 11,
+            "width": 18,
+            "height": 58,
+            "restitution": 0.3,
+            "linearDamping": 0.08,
+            "density": 0.2,
+            "friction": 0.05,
+            "health": 1,
+            "destructable": true,
+            "static": true,
+            "destructionLevels": [
+                {
+                    "minHealth": 1,
+                    "animName": "normal"
+                },
+                {
+                    "minHealth": 1,
+                    "animName": "last"
+                },
+                {
+                    "minHealth": 0,
+                    "animName": "dest"
+                }
+            ]
+        },
+        "builtInDestruction": true,
+        "material": "glass"
+    },
+    "GlassHorWall": {
+        "class": "Block",
+        "visuals": {
+            "box": {
+                "class": "GuiSprite",
+                "width": 84,
+                "height": 48,
+                "totalImage": "FinalArt/Blocks/Glass/Glass3_Sheet.png",
+                "totalImageWidth": 840,
+                "totalImageHeight": 48,
+                "spriteAnimations": {
+                    "normal": {
+                        "frames": [0],
+                        "row": 0
+                    },
+                    "last": {
+                        "frames": [1],
+                        "row": 0
+                    },
+                    "dest": {
+                        "frames": [2, 3, 4, 5, 6, 7, 8, 9, 10],
+                        "row": 0
+                    }
+                }
+            }
+        },
+        "physics": {
+            "type": "Box",
+            "x": 13,
+            "y": 13,
+            "width": 57,
+            "height": 19,
+            "restitution": 0.3,
+            "linearDamping": 0.08,
+            "density": 0.2,
+            "friction": 0.05,
+            "health": 1,
+            "destructable": true,
+            "static": true,
+            "destructionLevels": [
+                {
+                    "minHealth": 1,
+                    "animName": "normal"
+                },
+                {
+                    "minHealth": 1,
+                    "animName": "last"
+                },
+                {
+                    "minHealth": 0,
+                    "animName": "dest"
+                }
+            ]
+        },
+        "builtInDestruction": true,
+        "material": "glass"
+    },
+    "GlassBox": {
+        "class": "Block",
+        "visuals": {
+            "box": {
+                "class": "GuiSprite",
+                "width": 84,
+                "height": 78,
+                "totalImage": "FinalArt/Blocks/Glass/Glass_Sheet.png",
+                "totalImageWidth": 924,
+                "totalImageHeight": 78,
+                "spriteAnimations": {
+                    "normal": {
+                        "frames": [0],
+                        "row": 0
+                    },
+                    "last": {
+                        "frames": [1],
+                        "row": 0
+                    },
+                    "dest": {
+                        "frames": [2, 3, 4, 5, 6, 7, 8, 9],
+                        "row": 0
+                    }
+                }
+            }
+        },
+        "physics": {
+            "type": "Box",
+            "x": 13,
+            "y": 10,
+            "width": 54,
+            "height": 58,
+            "restitution": 0.3,
+            "linearDamping": 0.08,
+            "density": 0.2,
+            "friction": 0.05,
+            "health": 1,
+            "destructable": true,
+            "static": true,
+            "destructionLevels": [
+                {
+                    "minHealth": 1,
+                    "animName": "normal"
+                },
+                {
+                    "minHealth": 1,
+                    "animName": "last"
+                },
+                {
+                    "minHealth": 0,
+                    "animName": "dest"
+                }
+            ]
+        },
+        "builtInDestruction": true,
+        "material": "glass"
+    },
+    "Enemy": {
+        "class": "Enemy",
+        "visuals": {
+            "pants": {
+                "class": "EnemyGuiSprite",
+                "width": 46,
+                "height": 82,
+                "totalImage": "FinalArt/Enemy/Enemy_Pants_Sheet.png",
+                "totalImageWidth": 552,
+                "totalImageHeight": 82,
+                "type": "pants",
+                "color": [51, 153, 255],
+                "spriteAnimations": {
+                    "normal": {
+                        "frames": [0],
+                        "row": 0
+                    },
+                    "surprised": {
+                        "frames": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+                        "row": 0
+                    },
+                    "dead": {
+                        "frames": [11],
+                        "row": 0
+                    }
+                }
+            },
+            "shirt": {
+                "class": "EnemyGuiSprite",
+                "width": 46,
+                "height": 82,
+                "totalImage": "FinalArt/Enemy/Enemy_Shirt_Sheet.png",
+                "totalImageWidth": 552,
+                "totalImageHeight": 82,
+                "type": "shirt",
+                "color": [210, 0, 0],
+                "spriteAnimations": {
+                    "normal": {
+                        "frames": [0],
+                        "row": 0
+                    },
+                    "surprised": {
+                        "frames": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+                        "row": 0
+                    },
+                    "dead": {
+                        "frames": [11],
+                        "row": 0
+                    }
+                }
+            },
+            "line": {
+                "class": "GuiSprite",
+                "width": 46,
+                "height": 82,
+                "totalImage": "FinalArt/Enemy/Enemy_LineArt_Sheet.png",
+                "totalImageWidth": 552,
+                "totalImageHeight": 82,
+                "spriteAnimations": {
+                    "normal": {
+                        "frames": [0],
+                        "row": 0
+                    },
+                    "surprised": {
+                        "frames": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+                        "row": 0
+                    },
+                    "dead": {
+                        "frames": [11],
+                        "row": 0
+                    }
+                }
+            }
+        },
+        "physics": {
+            "type": "Box",
+            "x": 10,
+            "y": 2,
+            "width": 28,
+            "height": 73,
+            "restitution": 0.3,
+            "linearDamping": 0.08,
+            "density": 0.08,
+            "friction": 0.05
+        }
+    },
+    "Player": {
+        "class": "Player",
+        "width": 200,
+        "visuals": {
+            "pants": {
+                "class": "PlayerGuiSprite",
+                "width": 64,
+                "height": 92,
+                "totalImage": "FinalArt/Player/GG_Pants_Sheet.png",
+                "totalImageWidth": 640,
+                "totalImageHeight": 92,
+                "spriteAnimations": {
+                    "getReady": {
+                        "frames": [ 0 ],
+                        "row": 0
+                    },
+                    "happy": {
+                        "frames": [9, 0],
+                        "row": 0
+                    },
+                    "facepalm": {
+                        "frames": [8, 0],
+                        "row": 0
+                    },
+                    "fire": {
+                        "frames": [ 0, 1, 2, 3, 4, 5, 6, 7, 0],
+                        "row": 0
+                    }
+                },
+                "type": "pants",
+                "color": [58, 104, 168],
+                "z": 10
+            },
+            "shirt": {
+                "class": "PlayerGuiSprite",
+                "width": 64,
+                "height": 92,
+                "totalImage": "FinalArt/Player/GG_Shirt_Sheet.png",
+                "totalImageWidth": 640,
+                "totalImageHeight": 92,
+                "spriteAnimations": {
+                    "getReady": {
+                        "frames": [ 0 ],
+                        "row": 0
+                    },
+                    "happy": {
+                        "frames": [9, 0],
+                        "row": 0
+                    },
+                    "facepalm": {
+                        "frames": [8, 0],
+                        "row": 0
+                    },
+                    "fire": {
+                        "frames": [ 0, 1, 2, 3, 4, 5, 6, 7, 0],
+                        "row": 0
+                    }
+                },
+                "type": "shirt",
+                "color": [255, 219, 53]
+            },
+            "line": {
+                "class": "GuiSprite",
+                "width": 64,
+                "height": 92,
+                "totalImage": "FinalArt/Player/GG_LineArt_Sheet.png",
+                "totalImageWidth": 640,
+                "totalImageHeight": 92,
+                "spriteAnimations": {
+                    "getReady": {
+                        "frames": [ 0 ],
+                        "row": 0
+                    },
+                    "happy": {
+                        "frames": [9, 0],
+                        "row": 0
+                    },
+                    "facepalm": {
+                        "frames": [8, 0],
+                        "row": 0
+                    },
+                    "fire": {
+                        "frames": [ 0, 1, 2, 3, 4, 5, 6, 7, 0],
+                        "row": 0
+                    }
+                }
+            },
+            "powerLine": {
+                "class": "GuiSprite",
+                "width": 88,
+                "height": 56,
+                "totalImage": "FinalArt/Cannon/Power001.png",
+                "totalImageWidth": 88,
+                "totalImageHeight": 56,
+                "x": 105,
+                "y": 416,
+                "visible": false,
+                "transformOrigin": {
+                    "x": -0.23,
+                    "y": 0.5
+                },
+                "z": 100
+            }
+        },
+        "physics": {
+            "type": "Box",
+            "x": 0,
+            "y": 0,
+            "width": 37,
+            "height": 18,
+            "static": true,
+            "sensor": true,
+            "offsetX": 30,
+            "offsetY": 64
+        }
+    },
+    "PlayerVisualGui": {
+        "class": "PlayerVisualGui",
+        "visuals": {
+            "pants": {
+                "class": "PlayerGuiSprite",
+                "width": 64,
+                "height": 92,
+                "totalImage": "FinalArt/Player/GG_Pants_Sheet.png",
+                "totalImageWidth": 640,
+                "totalImageHeight": 92,
+                "spriteAnimations": {
+                    "getReady": {
+                        "frames": [ 0 ],
+                        "row": 0
+                    },
+                    "happy": {
+                        "frames": [9, 0],
+                        "row": 0
+                    },
+                    "facepalm": {
+                        "frames": [8, 0],
+                        "row": 0
+                    },
+                    "fire": {
+                        "frames": [ 0, 1, 2, 3, 4, 5, 6, 7, 0],
+                        "row": 0
+                    }
+                },
+                "type": "pants",
+                "color": [58, 104, 168],
+                "z": 9999
+            },
+            "shirt": {
+                "class": "PlayerGuiSprite",
+                "width": 64,
+                "height": 92,
+                "totalImage": "FinalArt/Player/GG_Shirt_Sheet.png",
+                "totalImageWidth": 640,
+                "totalImageHeight": 92,
+                "spriteAnimations": {
+                    "getReady": {
+                        "frames": [ 0 ],
+                        "row": 0
+                    },
+                    "happy": {
+                        "frames": [9, 0],
+                        "row": 0
+                    },
+                    "facepalm": {
+                        "frames": [8, 0],
+                        "row": 0
+                    },
+                    "fire": {
+                        "frames": [ 0, 1, 2, 3, 4, 5, 6, 7, 0],
+                        "row": 0
+                    }
+                },
+                "type": "shirt",
+                "color": [255, 219, 53],
+                "z": 9999
+            },
+            "line": {
+                "class": "GuiSprite",
+                "width": 64,
+                "height": 92,
+                "totalImage": "FinalArt/Player/GG_LineArt_Sheet.png",
+                "totalImageWidth": 640,
+                "totalImageHeight": 92,
+                "spriteAnimations": {
+                    "getReady": {
+                        "frames": [ 0 ],
+                        "row": 0
+                    },
+                    "happy": {
+                        "frames": [9, 0],
+                        "row": 0
+                    },
+                    "facepalm": {
+                        "frames": [8, 0],
+                        "row": 0
+                    },
+                    "fire": {
+                        "frames": [ 0, 1, 2, 3, 4, 5, 6, 7, 0],
+                        "row": 0
+                    }
+                },
+                "z": 9999
+            }
+        }
+    },
+    "Ball": {
+        "class": "Ball",
+        "visuals": {
+            "ball": {
+                "class": "GuiCSprite",
+                "width": 30,
+                "height": 30,
+                "totalImage": "FinalArt/Ball/ball.png",
+                "totalImageWidth": 30,
+                "totalImageHeight": 30,
+                "z": 9998
+            },
+            "trace": {
+                "class": "GuiCSprite",
+                "width": 7,
+                "height": 7,
+                "totalImage": "FinalArt/Ball/PointCloud001.png",
+                "totalImageWidth": 7,
+                "totalImageHeight": 7,
+
+                "x": 5,
+                "y": 0
+            }
+        },
+        "physics": {
+            "type": "Circle",
+            "x": 0,
+            "y": 0,
+            "width": 30,
+            "height": 30,
+            "radius": 15,
+            "restitution": 0.6,
+            "friction": 4,
+            "linearDamping": 0.2,
+            "angularDamping": 1,
+            "density": 0.04
+        }
+    },
+    "Goal": {
+        "class": "Goal",
+        "visuals": {
+            "back": {
+                "class": "GuiSprite",
+                "width": 100,
+                "height": 104,
+                "totalImage": "FinalArt/Goal/Web_Back_001.png",
+                "totalImageWidth": 100,
+                "totalImageHeight": 104,
+                "z": -1
+            },
+            "front": {
+                "class": "GuiSprite",
+                "width": 100,
+                "height": 104,
+                "totalImage": "FinalArt/Goal/Web_Front_001.png",
+                "totalImageWidth": 100,
+                "totalImageHeight": 104,
+                "z": 9999
+            }
+        },
+        "physics": {
+            "type": "PrimitiveComposite",
+            "scale": 0.75,
+            "x": 25,
+            "y": 20,
+            "width": 40,
+            "height": 45,
+            "shapes": {
+                "crossbar": {
+                    "type": "Circle",
+                    "x": -12,
+                    "y": -24,
+                    "width": 18,
+                    "height": 19,
+                    "radius": 9,
+                    "restitution": 0.4,
+                    "friction": 0.6,
+                    "userData": "crossbar"
+                },
+                "body": {
+                    "type": "Box",
+                    "x": -8,
+                    "y": 15,
+                    "width": 10,
+                    "height": 60,
+                    "sensor": true,
+                    "userData": "body"
+                },
+                "net": {
+                    "type": "Box",
+                    "x": 25,
+                    "y": 21,
+                    "width": 10,
+                    "height": 45,
+                    "restitution": 0.05,
+                    "friction": 0.6,
+                    "userData": "net"
+                },
+                "net2": {
+                    "type": "Poly",
+                    "vertices": [
+                        {
+                            "x": 44,
+                            "y": 18
+                        },
+                        {
+                            "x": 72,
+                            "y": 25
+                        },
+                        {
+                            "x": 73,
+                            "y": 37
+                        },
+                        {
+                            "x": 44,
+                            "y": 31
+                        }
+                    ],
+                    "x": -45,
+                    "y": -45,
+                    "restitution": 0.05,
+                    "friction": 0.6,
+                    "userData": "net"
+                }
+            },
+            "static": true
+        }
+    },
+    "Referee": {
+        "class": "Referee",
+        "visuals": {
+            "referee": {
+                "class": "GuiSprite",
+                "width": 100,
+                "height": 100,
+                "totalImage": "FinalArt/judgeCLR.png",
+                "totalImageWidth": 100,
+                "totalImageHeight": 100
+            }
+        }
+    },
+    "Star": {
+        "class": "Star",
+        "visuals": {
+            "star": {
+                "class": "GuiSprite",
+                "width": 102,
+                "height": 80,
+                "totalImage": "FinalArt/Star/StarLevel_001.png",
+                "totalImageWidth": 1122,
+                "totalImageHeight": 80,
+                "spriteAnimations": {
+                    "dest": {
+                        "frames": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+                        "row": 0
+                    }
+                }
+
+            }
+        },
+        "physics": {
+            "type": "Circle",
+            "x": 0,
+            "y": 0,
+            "width": 102,
+            "height": 80,
+            "radius": 21,
+            "static": true,
+            "sensor": true
+        }
+    },
+    "TeamPlayer": {
+        "class": "TeamPlayer",
+        "visuals": {
+            "pants": {
+                "class": "PlayerGuiSprite",
+                "width": 64,
+                "height": 92,
+                "totalImage": "FinalArt/Player/GG_Pants_Sheet.png",
+                "totalImageWidth": 640,
+                "totalImageHeight": 92,
+                "spriteAnimations": {
+                    "getReady": {
+                        "frames": [ 0 ],
+                        "row": 0
+                    },
+                    "happy": {
+                        "frames": [9, 0],
+                        "row": 0
+                    },
+                    "facepalm": {
+                        "frames": [8, 0],
+                        "row": 0
+                    },
+                    "fire": {
+                        "frames": [ 0, 1, 2, 3, 4, 5, 6, 7, 0],
+                        "row": 0
+                    }
+                },
+                "type": "pants",
+                "color": [58, 104, 168]
+            },
+            "shirt": {
+                "class": "PlayerGuiSprite",
+                "width": 64,
+                "height": 92,
+                "totalImage": "FinalArt/Player/GG_Shirt_Sheet.png",
+                "totalImageWidth": 640,
+                "totalImageHeight": 92,
+                "spriteAnimations": {
+                    "getReady": {
+                        "frames": [ 0 ],
+                        "row": 0
+                    },
+                    "happy": {
+                        "frames": [9, 0],
+                        "row": 0
+                    },
+                    "facepalm": {
+                        "frames": [8, 0],
+                        "row": 0
+                    },
+                    "fire": {
+                        "frames": [ 0, 1, 2, 3, 4, 5, 6, 7, 0],
+                        "row": 0
+                    }
+                },
+                "type": "shirt",
+                "color": [255, 219, 53]
+            },
+            "line": {
+                "class": "GuiSprite",
+                "width": 64,
+                "height": 92,
+                "totalImage": "FinalArt/Player/GG_LineArt_Sheet.png",
+                "totalImageWidth": 640,
+                "totalImageHeight": 92,
+                "spriteAnimations": {
+                    "getReady": {
+                        "frames": [ 0 ],
+                        "row": 0
+                    },
+                    "happy": {
+                        "frames": [9, 0],
+                        "row": 0
+                    },
+                    "facepalm": {
+                        "frames": [8, 0],
+                        "row": 0
+                    },
+                    "fire": {
+                        "frames": [ 0, 1, 2, 3, 4, 5, 6, 7, 0],
+                        "row": 0
+                    }
+                }
+            }
+        },
+        "physics": {
+            "type": "Box",
+            "x": 15,
+            "y": 68,
+            "width": 37,
+            "height": 18,
+            "static": true,
+            "sensor": true
+        }
+    },
+    "TeamPlayerLeft": {
+        "class": "TeamPlayer",
+        "visuals": {
+            "pants": {
+                "class": "PlayerGuiSprite",
+                "width": 64,
+                "height": 92,
+                "totalImage": "FinalArt/Player/GG_Pants_Sheet.png",
+                "totalImageWidth": 640,
+                "totalImageHeight": 92,
+                "spriteAnimations": {
+                    "getReady": {
+                        "frames": [ 0 ],
+                        "row": 0
+                    },
+                    "happy": {
+                        "frames": [9, 0],
+                        "row": 0
+                    },
+                    "facepalm": {
+                        "frames": [8, 0],
+                        "row": 0
+                    },
+                    "fire": {
+                        "frames": [ 0, 1, 2, 3, 4, 5, 6, 7, 0],
+                        "row": 0
+                    }
+                },
+                "type": "pants",
+                "color": [58, 104, 168]
+            },
+            "shirt": {
+                "class": "PlayerGuiSprite",
+                "width": 64,
+                "height": 92,
+                "totalImage": "FinalArt/Player/GG_Shirt_Sheet.png",
+                "totalImageWidth": 640,
+                "totalImageHeight": 92,
+                "spriteAnimations": {
+                    "getReady": {
+                        "frames": [ 0 ],
+                        "row": 0
+                    },
+                    "happy": {
+                        "frames": [9, 0],
+                        "row": 0
+                    },
+                    "facepalm": {
+                        "frames": [8, 0],
+                        "row": 0
+                    },
+                    "fire": {
+                        "frames": [ 0, 1, 2, 3, 4, 5, 6, 7, 0],
+                        "row": 0
+                    }
+                },
+                "type": "shirt",
+                "color": [255, 219, 53]
+            },
+            "line": {
+                "class": "GuiSprite",
+                "width": 64,
+                "height": 92,
+                "totalImage": "FinalArt/Player/GG_LineArt_Sheet.png",
+                "totalImageWidth": 640,
+                "totalImageHeight": 92,
+                "spriteAnimations": {
+                    "getReady": {
+                        "frames": [ 0 ],
+                        "row": 0
+                    },
+                    "happy": {
+                        "frames": [9, 0],
+                        "row": 0
+                    },
+                    "facepalm": {
+                        "frames": [8, 0],
+                        "row": 0
+                    },
+                    "fire": {
+                        "frames": [ 0, 1, 2, 3, 4, 5, 6, 7, 0],
+                        "row": 0
+                    }
+                }
+            }
+        },
+        "physics": {
+            "type": "Box",
+            "x": 6,
+            "y": 68,
+            "width": 37,
+            "height": 18,
+            "static": true,
+            "sensor": true
+        },
+        "flipped": true
+    }
+}

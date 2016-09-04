@@ -1,0 +1,30 @@
+.default-bold {
+    color: white;
+    font-style: italic;
+    font-size: 30px;
+}
+
+@font-face {
+    font-family: 'BowlbyOneSCRegular';
+    src: url('../fonts/BowlbyOneSC-Regular.eot');
+    src: url('../fonts/BowlbyOneSC-Regular.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.bowl-normal {
+    font-family: BowlbyOneSCRegular;
+    color: black;
+    -webkit-text-stroke: 0px #000;
+}
+
+.bowl-white {
+    font-family: BowlbyOneSCRegular;
+    color: white;
+    text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.bowl-white-unboredered {
+    font-family: BowlbyOneSCRegular;
+    color: white;
+}

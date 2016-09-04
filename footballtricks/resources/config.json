@@ -1,0 +1,66 @@
+{
+    "score": {
+        "rate": 10,
+        "star": 50,
+        "enemy": 50,
+        "goal": 100,
+        "ball": 50,
+        "blockDamageCoefficient": 1
+    },
+    "ball": {
+        "minVelocityToTrace": 3,
+        "offsetFromPlayer": {
+            "x": 70,
+            "y": 70.95
+        }
+    },
+    "player": {
+        "minPowerRatio": 0.1,
+        "powerRating": 0.8,
+        "teamPlayerPowerRating": 0.4
+    },
+    "world": {
+        "stopSpeedNearGoal": 0.009,
+        "stopSpeed": 0.25,
+        "touchDistanceSquaredToTargeting": 4600
+    },
+    "sounds": {
+        "blockDestroyedPriority" : 5,
+        "minBallSqVelocityToPlayEnemy": 100,
+        "net": {
+            "min": 10,
+            "max": 56,
+            "priority": 10
+        },
+        "crossbar": {
+            "min": 10,
+            "max": 60,
+            "priority": 10
+        },
+        "metal": {
+            "min": 0,
+            "max": 5,
+            "priority": 4
+        },
+        "brick": {
+            "min": 0,
+            "max": 5,
+            "priority": 4
+        },
+        "wood": {
+            "min": 0,
+            "max": 5,
+            "priority": 4
+        },
+        "glass": {
+            "min": 0,
+            "max": 5,
+            "priority": 4
+        },
+        "ground": {
+            "min": 2,
+            "max": 80,
+            "priority": 2
+        }
+    }
+}

@@ -1,0 +1,1 @@
+{"Block.0":{"class":"Block","parent":"Scene01","type":"WoodenBox","x":393.84164222873903,"y":432.15962441314554,"angle":0},"Player.0":{"class":"Player","parent":"Scene01","type":"Player","x":15,"y":383,"balls":4,"scores":[100,150,200],"angle":0}}

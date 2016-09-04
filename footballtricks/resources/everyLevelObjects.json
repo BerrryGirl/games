@@ -1,0 +1,43 @@
+{
+    "Scene01": {
+        "class": "BattleScene",
+        "gameClass": "BattleScene",
+        "parent": "GameState01",
+        "x": 0,
+        "y": 0,
+        "width": 800,
+        "height": 500,
+        "groundLevel": 65,
+        "type": "Scene",
+        "id": "Scene01",
+        "canvasDiv": {
+            "style": "enhancedScene",
+            "enhancedScene": true,
+            "z": 9998
+        }
+    },
+    "Goal": {
+        "class": "Goal",
+        "parent": "Scene01",
+        "type": "Goal",
+        "x": 727,
+        "y": 416,
+        "angle": 0
+    },
+    "Referee": {
+        "class": "Referee",
+        "parent": "Scene01",
+        "type": "Referee",
+        "x": 650,
+        "y": 50,
+        "angle": 0
+    },
+    "PlayerVisual": {
+        "class": "PlayerVisualGui",
+        "parent": "Scene01",
+        "type": "PlayerVisualGui",
+        "x": 190,
+        "y": 85,
+        "angle": 0
+    }
+}

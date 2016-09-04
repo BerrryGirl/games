@@ -1,0 +1,1 @@
+{"Enemy.0":{"class":"Enemy","parent":"Scene01","type":"Enemy","x":367.6497531106068,"y":422.2749872132794,"angle":-9.133382703679779e-7},"Player.0":{"class":"Player","parent":"Scene01","type":"Player","x":15,"y":383,"balls":3,"scores":[50,200,250],"angle":0}}

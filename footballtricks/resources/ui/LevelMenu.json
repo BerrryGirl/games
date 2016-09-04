@@ -1,0 +1,224 @@
+{
+    "enhancedScene": {
+        "class": "GuiDiv",
+        "params": {
+            "parent": "#root",
+            "background": {
+                "image": "FinalArt/Menu/LevelSelect/TestMenuBG.jpg"
+            },
+            "style": "enhancedScene",
+            "enhancedScene": true,
+			"hide" : true
+        }
+    },
+    "menuContainer": {
+        "class": "GuiDiv",
+        "params": {
+            "parent": "enhancedScene",
+            "style": "mainScene",
+            "innerScene": true
+        }
+    },
+    "menuStatic": {
+        "class": "GuiDiv",
+        "params": {
+            "parent": "menuContainer",
+            "width": 800,
+            "height": 500,
+            "x": 0,
+            "y": -10,
+            "style": "gameButton"
+        }
+    },
+    "slideContainer": {
+        "class": "GuiButton",
+        "params": {
+            "parent": "menuStatic",
+            "width": 3000,
+            "height": 500,
+            "x": 0,
+            "y": -10,
+            "style": "gameButton"
+        }
+    },
+    "menu": {
+        "class": "GuiButton",
+        "params": {
+            "parent": "menuContainer",
+            "normal": {
+                "image": "FinalArt/Menu/Button.png",
+                "label": {
+                    "style": "gameButton bowl-white-unboredered",
+                    "text": "menu",
+                    "fontSize": 28,
+                    "color": "#01B5FF",
+                    "y": "53%"
+                }
+            },
+            "hover": {
+                "image": "FinalArt/Menu/Button.png",
+                "scale": 115,
+                "label": {
+                    "style": "gameButton bowl-white-unboredered",
+                    "text": "menu",
+                    "fontSize": 28,
+                    "color": "#01B5FF"
+                }
+            },
+            "style": "gameButton",
+            "width": 166,
+            "height": 56,
+            "x": 4,
+            "y": 420
+        }
+    },
+    "nextGame": {
+        "class": "GuiButton",
+        "params": {
+            "parent": "menuContainer",
+            "normal": {
+                "image": "FinalArt/Menu/Button.png",
+                "label": {
+                    "style": "gameButton bowl-white-unboredered",
+                    "text": "nextGame",
+                    "fontSize": 28,
+                    "color": "#01B5FF",
+                    "y": "53%"
+                }
+            },
+            "hover": {
+                "image": "FinalArt/Menu/Button.png",
+                "scale": 115,
+                "label": {
+                    "style": "gameButton bowl-white-unboredered",
+                    "text": "nextGame",
+                    "fontSize": 28,
+                    "color": "#01B5FF"
+                }
+            },
+            "style": "gameButton",
+            "width": 166,
+            "height": 56,
+            "x": 631,
+            "y": 420
+        }
+    },
+    "qualificationLabel": {
+        "class": "GuiButton",
+        "params": {
+            "parent": "slideContainer",
+            "normal": {
+                "image": "FinalArt/Menu/LevelSelect/WordsBase.png",
+                "label": {
+                    "style": "gameButton bowl-white-unboredered",
+                    "text": "qualification",
+                    "fontSize": 28,
+                    "y": "48%"
+                }
+            },
+            "style": "gameButton",
+            "width": 374,
+            "height": 40,
+            "x": 230,
+            "y": 25
+        }
+    },
+    "groupLabel": {
+        "class": "GuiButton",
+        "params": {
+            "parent": "slideContainer",
+            "normal": {
+                "image": "FinalArt/Menu/LevelSelect/WordsBase.png",
+                "label": {
+                    "style": "gameButton bowl-white-unboredered",
+                    "text": "groupStage",
+                    "fontSize": 28,
+                    "y": "48%"
+                }
+            },
+            "style": "gameButton",
+            "width": 374,
+            "height": 40,
+            "x": 1230,
+            "y": 25
+        }
+    },
+    "playoffLabel": {
+        "class": "GuiButton",
+        "params": {
+            "parent": "slideContainer",
+            "normal": {
+                "image": "FinalArt/Menu/LevelSelect/WordsBase.png",
+                "label": {
+                    "style": "gameButton bowl-white-unboredered",
+                    "text": "play-offRound",
+                    "fontSize": 28,
+                    "y": "48%"
+                }
+            },
+            "style": "gameButton",
+            "width": 374,
+            "height": 40,
+            "x": 2230,
+            "y": 25
+        }
+    },
+    "finalLabel": {
+        "class": "GuiButton",
+        "params": {
+            "parent": "slideContainer",
+            "normal": {
+                "image": "FinalArt/Menu/LevelSelect/WordsBase.png",
+                "label": {
+                    "style": "gameButton bowl-white-unboredered",
+                    "text": "final",
+                    "fontSize": 28,
+                    "y": "48%"
+                }
+            },
+            "style": "gameButton",
+            "width": 374,
+            "height": 40,
+            "x": 3230,
+            "y": 25
+        }
+    },
+    "arrowLeft": {
+        "class": "GuiButton",
+        "params": {
+            "parent": "menuStatic",
+            "normal": {
+                "image": "FinalArt/Menu/ArrowL.png",
+                "scale": 50
+            },
+            "hover": {
+                "image": "FinalArt/Menu/ArrowL.png",
+                "scale": 55
+            },
+            "style": "gameButton",
+            "width": 70,
+            "height": 150,
+            "x": 18,
+            "y": 167
+        }
+    },
+    "arrowRight": {
+        "class": "GuiButton",
+        "params": {
+            "parent": "menuStatic",
+            "normal": {
+                "image": "FinalArt/Menu/ArrowR.png",
+                "scale": 50
+            },
+            "hover": {
+                "image": "FinalArt/Menu/ArrowR.png",
+                "scale": 55
+            },
+            "style": "gameButton",
+            "width": 70,
+            "height": 150,
+            "x": 713,
+            "y": 167
+        }
+    }
+}

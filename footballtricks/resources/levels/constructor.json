@@ -1,0 +1,11 @@
+{
+    "Player.0": {
+        "class": "Player",
+        "parent": "Scene01",
+        "type": "Player",
+        "x": 0,
+        "y": 373,
+        "balls": 10,
+        "angle": 0
+    }
+}
