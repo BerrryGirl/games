@@ -1,0 +1,76 @@
+{
+	"creditsDialog": {
+		"class" : "GuiDialog",
+		"params" : {
+			"parent" : "menuContainer",
+			"style" : "dialog",
+			"width" : 400,
+			"height" : 400,
+			"x" : "50%",
+			"y" : 40,
+			"offsetX":-150,
+			"hide" : true
+		}
+	},
+	"resume": {
+		"class" : "GuiButton",
+		"params" : {
+			"parent" : "creditsDialog",
+			"normal" : {
+				"image" : "FinalArt/Menu/Pause/ok.png"			
+			},
+			"hover" : {
+				"image" : "FinalArt/Menu/Pause/ok.png",
+				"scale" : 120
+			},
+			"active" : {
+				"image" : "FinalArt/Menu/Pause/ok.png",
+				"scale" : 95
+			},
+			"style" : "dialog",
+			"width" : 82,
+			"height" : 70,
+			"x" : 270,
+			"y" : 345
+		}
+	},
+	"scroll" : {
+		"class" : "GuiScroll", 
+		"params" : {
+			"parent" : "creditsDialog", 
+		 	"style" : "dialogButton scrollerWrapper", 
+			"width" : 340, 
+			"height" : 400, 
+			"x" : 0, 
+			"y" : 20
+		}
+	},
+	"berrry": {
+		"class" : "GuiDiv",
+		"params" : {
+			"parent" : "scroll",
+			"background" : {
+				"image" : "FinalArt/Menu/Main/elitecoder.png"
+			},
+			"style" : "gameButton",
+			"width" : 256,
+			"height" : 59,
+			"x" : 30,
+			"y" : 0
+		}
+	},
+	"text": {
+		"class" : "GuiLabel",
+		"params" : {
+			"parent" : "scroll",
+			"style" : "scrollButton default-italic",
+			"width" : 330,
+			"height" : 585,
+			"x" : 0,
+			"y" : 40,
+			"text" : "",
+			"fontSize" : 16,
+			"color" : "white"
+		}
+	}
+}

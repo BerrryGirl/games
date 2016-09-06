@@ -1,0 +1,473 @@
+{
+	"enhancedScene": {
+		"class" : "GuiDiv",
+		"params" : {
+			"parent" : "#root",
+			"style" : "enhancedScene",
+			"enhancedScene" : true
+		}
+	},
+	"sceneContainer": {
+		"class" : "GuiDiv",
+		"params" : {
+			"parent" : "enhancedScene",
+			"style" : "mainScene",
+			"innerScene" : true
+		}
+	},
+	"ballsInfo": {
+		"class" : "GuiButton",
+		"params" : {
+			"parent" : "enhancedScene",
+			"normal" : {"image" : "FinalArt/Menu/LevelSelect/Balls.png",
+				"label" : {
+					"style" : "gameButton victoriana-normal",
+					"text" : "3",
+					"fontSize" : 35,
+					"color" : "#01B5FF",
+					"y" : "48%",
+					"x" : "60%"
+				}},
+			"hover" : {"image" : "FinalArt/Menu/LevelSelect/Balls.png",
+						"scale" : 115},
+			"style" : "gameButton",
+			"width" : 115,
+			"height" : 58, 
+			"x" : 150, 
+			"y" : 15
+		}
+	},
+	"score": {
+		"class" : "GuiButton",
+		"params" : {
+			"parent" : "enhancedScene",
+			"normal" : {"image" : "FinalArt/Menu/LevelSelect/ScoreCell001.png",
+				"label" : {
+					"style" : "gameButton victoriana-normal",
+					"text" : "0",
+					"fontSize" : 35,
+					"color" : "#01B5FF",
+					"y" : "48%"
+				}},
+			"hover" : {"image" : "FinalArt/Menu/LevelSelect/ScoreCell001.png",
+						"scale" : 115},
+			"style" : "gameButton",
+			"width" : 197,
+			"height" : 58, 
+			"x" : 400, 
+			"y" : 15
+		}
+	},
+	"pauseBtn": {
+		"class" : "GuiButton",
+		"params" : {
+			"parent" : "enhancedScene",
+			"normal" : {"image" : "FinalArt/Menu/Pause/Pause1.png"},
+			"hover" : {"image" : "FinalArt/Menu/Pause/Pause1.png",
+						"scale" : 115},
+			"style" : "gameButton",
+			"width" : 109,
+			"height" : 93, 
+			"x" : 10, 
+			"y" : 10
+		}
+	},
+	"pauseMenuContainer": {
+		"class" : "GuiDiv",
+		"params" : {
+			"parent" : "body",
+			"style" : "mask",
+			"width" : "FULL_WIDTH", 
+			"height" : "FULL_HEIGHT",
+			"image" : "FinalArt/Menu/Pause/shadowed.png",
+			"x" : 0,
+			"y" : 0
+		}
+	},
+	"pauseMenu": {
+		"class" : "GuiDiv",
+		"params" : {
+			"parent" : "enhancedScene",
+			"style" : "dialogButton",
+			"width" : 252, 
+			"height" : 640,
+			"background": {
+				"image" : "FinalArt/Menu/Main/Sheet1.png"
+			},
+			"animations" : {
+				"open" : [
+							{"animate" : {
+								"actions": [["left", "+=", 252]], 
+								"time":500
+							}},
+							{"final" : {
+								"x": 0
+							}}
+				],
+				"close" : [
+							{"animate" : {
+								"actions": [["left", "-=", 252]], 
+								"time":500
+							}},
+							{"final" : {
+								"x": -252
+							}}
+				]
+			},
+			"x" : -252,
+			"y" : 0
+		}
+	},
+	"levelInfo": {
+		"class" : "GuiButton",
+		"params" : {
+			"parent" : "pauseMenu",
+			"normal" : {"image" : "FinalArt/Menu/LevelSelect/NumberCell001.png",
+							"label" : {
+								"style" : "gameButton victoriana-normal",
+								"text" : "",
+								"fontSize" : 30,
+								"color" : "#01B5FF",
+								"y" : "55%",
+								"x" : "45%"
+							}},
+			"hover" : {"image" : "FinalArt/Menu/LevelSelect/NumberCell001.png",
+							"scale" : 115,
+							"label" : {}},
+			"style" : "gameButton",
+			"width" : 70,
+			"height" : 62, 
+			"x" : 75, 
+			"y" : 5
+		}
+	},
+	"resume": {
+		"class" : "GuiButton",
+		"params" : {
+			"parent" : "pauseMenu",
+			"normal" : {"image" : "FinalArt/Menu/Main/Button2.png",
+							"label" : {
+								"style" : "gameButton victoriana-normal",
+								"text" : "Resume",
+								"fontSize" : 30,
+								"color" : "#01B5FF",
+								"y" : "45%"
+							}},
+			"hover" : {"image" : "FinalArt/Menu/Main/Button2.png",
+							"scale" : 115,
+							"label" : {}},
+			"style" : "gameButton",
+			"width" : 197,
+			"height" : 65, 
+			"x" : 15, 
+			"y" : 80
+		}
+	},
+	"restart": {
+		"class" : "GuiButton",
+		"params" : {
+			"parent" : "pauseMenu",
+			"normal" : {"image" : "FinalArt/Menu/Main/Button2.png",
+							"label" : {
+								"style" : "gameButton victoriana-normal",
+								"text" : "Restart",
+								"fontSize" : 30,
+								"color" : "#01B5FF",
+								"y" : "45%"
+							}},
+			"hover" : {"image" : "FinalArt/Menu/Main/Button2.png",
+						"scale" : 115,
+							"label" : {
+							}},
+			"style" : "gameButton",
+			"width" : 197,
+			"height" : 65, 
+			"x" : 15, 
+			"y" : 180
+		}
+	},
+	"menu": {
+		"class" : "GuiButton",
+		"params" : {
+			"parent" : "pauseMenu",
+			"normal" : {"image" : "FinalArt/Menu/Main/Button2.png",
+							"label" : {
+								"style" : "gameButton victoriana-normal",
+								"text" : "Menu",
+								"fontSize" : 30,
+								"color" : "#01B5FF",
+								"y" : "45%"
+							}},
+			"hover" : {"image" : "FinalArt/Menu/Main/Button2.png",
+						"scale" : 115,
+							"label" : {
+							}},
+			"style" : "gameButton",
+			"width" : 197,
+			"height" : 65, 
+			"x" : 15, 
+			"y" : 280
+		}
+	},
+	"soundOn": {
+		"class" : "GuiButton",
+		"params" : {
+			"parent" : "pauseMenu",
+			"normal" : {"image" : "FinalArt/Menu/Main/SoundOn.png"},
+			"hover" : {"image" : "FinalArt/Menu/Main/SoundOn.png",
+						"scale" : 115},
+			"style" : "gameButton",
+			"width" : 109,
+			"height" : 93, 
+			"x" : 60, 
+			"y" : 400
+		}
+	},
+	"soundOff": {
+		"class" : "GuiButton",
+		"params" : {
+			"parent" : "pauseMenu",
+			"normal" : {"image" : "FinalArt/Menu/Main/SoundOff.png"},
+			"hover" : {"image" : "FinalArt/Menu/Main/SoundOff.png",
+						"scale" : 115},
+			"style" : "gameButton",
+			"width" : 109,
+			"height" : 93, 
+			"x" : 60, 
+			"y" : 400
+		}
+	},
+	"endGameMenu": {
+		"class" : "GuiButton",
+		"params" : {
+			"parent" : "sceneContainer",
+			"normal" : {"image" : "FinalArt/Menu/LevelSelect/Sheet3.png",
+							"label" : {
+								"style" : "gameButton victoriana-white-unboredered",
+								"text" : "",
+								"fontSize" : 50,
+								"color" : "#01B5FF",
+								"y" : "40%"
+							}},
+			"hover" : {"image" : "FinalArt/Menu/LevelSelect/Sheet3.png",
+						"scale" : 115,
+							"label" : {
+							}},
+			"style" : "gameButton",
+			"width" : 500, 
+			"height" : 280,
+			"x" : "18%",
+			"y" : 135,
+			"z" : 9999
+		}
+	},
+	"endMenuBtn": {
+		"class" : "GuiButton",
+		"params" : {
+			"parent" : "endGameMenu",
+			"normal" : {"image" : "FinalArt/Menu/Pause/select_level_L.png",
+							"label" : {
+								"style" : "gameButton victoriana-normal",
+								"text" : "",
+								"fontSize" : 20,
+								"color" : "#01B5FF",
+								"y" : "45%"
+							}},
+			"hover" : {"image" : "FinalArt/Menu/Pause/select_level_L.png",
+						"scale" : 115,
+							"label" : {
+							}},
+			"style" : "gameButton",
+			"width" : 109,
+			"height" : 93, 
+			"x" : 75, 
+			"y" : 165
+		}
+	},
+	"endReplyBtn": {
+		"class" : "GuiButton",
+		"params" : {
+			"parent" : "endGameMenu",
+			"normal" : {"image" : "FinalArt/Menu/Pause/return_L.png",
+							"label" : {
+								"style" : "gameButton victoriana-normal",
+								"text" : "",
+								"fontSize" : 20,
+								"color" : "#01B5FF",
+								"y" : "45%"
+							}},
+			"hover" : {"image" : "FinalArt/Menu/Pause/return_L.png",
+						"scale" : 115,
+							"label" : {
+							}},
+			"style" : "gameButton",
+			"width" : 109,
+			"height" : 93, 
+			"x" : 200, 
+			"y" : 165
+		}
+	},
+	"endNextBtn": {
+		"class" : "GuiButton",
+		"params" : {
+			"parent" : "endGameMenu",
+			"normal" : {"image" : "FinalArt/Menu/Pause/forward_L.png",
+							"label" : {
+								"style" : "gameButton victoriana-normal",
+								"text" : "",
+								"fontSize" : 20,
+								"color" : "#01B5FF",
+								"y" : "45%"
+							}},
+			"hover" : {"image" : "FinalArt/Menu/Pause/forward_L.png",
+						"scale" : 115,
+							"label" : {
+							}},
+			"style" : "gameButton",
+			"width" : 109,
+			"height" : 93, 
+			"x" : 325, 
+			"y" : 165
+		}
+	},
+	"tutorialMenu": {
+		"class" : "GuiButton",
+		"params" : {
+			"parent" : "sceneContainer",
+			"normal" : {"image" : "FinalArt/Menu/LevelSelect/Sheet3.png",
+							"label" : {
+								"style" : "gameButton victoriana-white-unboredered",
+								"text" : "Take a shot",
+								"fontSize" : 60,
+								"color" : "#01B5FF",
+								"y" : "15%"
+							}},
+			"hover" : {"image" : "FinalArt/Menu/LevelSelect/Sheet3.png",
+						"scale" : 115,
+							"label" : {
+							}},
+			"style" : "gameButton",
+			"width" : 500, 
+			"height" : 280,
+			"x" : "18%",
+			"y" : 135,
+			"z" : 9997
+		}
+	},
+	"tutorialFrame_0" : {
+		"class" : "GuiSprite",
+		"params" : {
+			"parent" : "tutorialMenu",
+			"width" : 503,
+			"style" : "sprite",
+			"height" : 288,
+			"totalImage" : "FinalArt/Menu/Tutorial/tutorial.png",
+			"totalImageWidth" : 2012,
+			"totalImageHeight" : 288,
+			"totalTile" : 1,
+			"spriteAnimations" : {
+				"tutorial" : {
+					"frames" : [ 0, 1, 2, 3  ],	"row" : 0 }
+			},
+			"x" : "18%",
+			"y" : 135,
+			"z" : 9998
+		}
+	},	
+	"tutorialNext": {
+		"class" : "GuiButton",
+		"params" : {
+			"parent" : "tutorialMenu",
+			"normal" : {"image" : "FinalArt/Menu/Pause/forward_L.png",
+							"label" : {
+								"style" : "gameButton victoriana-normal",
+								"text" : "",
+								"fontSize" : 20,
+								"color" : "#01B5FF",
+								"y" : "45%"
+							}},
+			"hover" : {"image" : "FinalArt/Menu/Pause/forward_L.png",
+						"scale" : 115,
+							"label" : {
+							}},
+			"style" : "gameButton",
+			"width" : 109,
+			"height" : 93, 
+			"x" : 345, 
+			"y" : 165,
+			"z" : 9999
+		}
+	},
+	"tutorialFrame_1" : {
+		"class" : "GuiButton",
+		"params" : {
+			"parent" : "tutorialMenu",
+			"normal" : {"image" : "FinalArt/Tutorial/enemy.png",
+							"label" : {
+								"style" : "gameButton victoriana-normal",
+								"text" : "",
+								"fontSize" : 20,
+								"color" : "#01B5FF",
+								"y" : "45%"
+							}},
+			"hover" : {"image" : "FinalArt/Tutorial/captive.png",
+						"scale" : 115,
+							"label" : {
+							}},
+			"style" : "gameButton",
+			"width" : 204,
+			"height" : 110, 
+			"x" : "20%", 
+			"y" : "35%",
+			"z" : 9999
+		}	
+	},	
+	"tutorialFrame_2" : {
+		"class" : "GuiButton",
+		"params" : {
+			"parent" : "tutorialMenu",
+			"normal" : {"image" : "FinalArt/Tutorial/captive.png",
+							"label" : {
+								"style" : "gameButton victoriana-normal",
+								"text" : "",
+								"fontSize" : 20,
+								"color" : "#01B5FF",
+								"y" : "45%"
+							}},
+			"hover" : {"image" : "FinalArt/Tutorial/captive.png",
+						"scale" : 115,
+							"label" : {
+							}},
+			"style" : "gameButton",
+			"width" : 221,
+			"height" : 158, 
+			"x" : "20%", 
+			"y" : "30%",
+			"z" : 9999
+		}	
+	},
+	"tutorialEnd": {
+		"class" : "GuiButton",
+		"params" : {
+			"parent" : "tutorialMenu",
+			"normal" : {"image" : "FinalArt/Menu/Pause/ok.png",
+							"label" : {
+								"style" : "gameButton victoriana-normal",
+								"text" : "",
+								"fontSize" : 20,
+								"color" : "#01B5FF",
+								"y" : "45%"
+							}},
+			"hover" : {"image" : "FinalArt/Menu/Pause/ok.png",
+						"scale" : 115,
+							"label" : {
+							}},
+			"style" : "gameButton",
+			"width" : 109,
+			"height" : 93, 
+			"x" : 345, 
+			"y" : 165,
+			"z" : 9999
+		}
+	}
+}

@@ -1,0 +1,35 @@
+/* 
+	Paytone One Fonts
+	http://www.google.com/webfonts/specimen/Paytone+One
+*/
+@font-face {
+	font-family: 'VictorianaRegular';
+	src: url('../fonts/victoriana-webfont.eot');
+	src: url('../fonts/victoriana-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.victoriana-normal {
+	font-family: VictorianaRegular;
+	color: black;
+	-webkit-text-stroke: 0px #000;
+}
+
+.victoriana-white {
+	font-family: VictorianaRegular;
+	color: white;
+	-webkit-text-stroke: 2px #000;
+}
+
+.victoriana-white-unboredered {
+	font-family: VictorianaRegular;
+	color: white;
+	-webkit-text-stroke: 0px #000;
+}
+
+.default-bold {
+	color: white;
+	font-style: italic;
+	font-size: 30px;
+}

@@ -1,0 +1,113 @@
+{
+	"enhancedScene": {
+		"class" : "GuiDiv",
+		"params" : {
+			"parent" : "#root",
+			"background": {
+				"image" : "FinalArt/Menu/Main/zastavka.jpg"
+			},
+			"hide" : true,
+			"style" : "enhancedScene",
+			"enhancedScene" : true
+		}
+	},
+	"menuContainer": {
+		"class" : "GuiDiv",
+		"params" : {
+			"parent" : "enhancedScene",
+			"style" : "mainScene",
+			"innerScene" : true
+		}
+	},
+	"play": {
+		"class" : "GuiButton",
+		"params" : {
+			"parent" : "menuContainer",
+			"normal" : {
+				"image" : "FinalArt/Menu/Main/Button1.png",
+				"label" : {
+					"style" : "gameButton victoriana-normal",
+					"text" : "PLAY",
+					"fontSize" : 35,
+					"color" : "#753424",
+					"y" : "45%"
+				}
+			},
+			"hover" : {"image" : "FinalArt/Menu/Main/Button1.png",
+						"scale" : 115,
+				"label" : {
+				}},
+			"style" : "gameButton",
+			"width" : 219,
+			"height" : 82, 
+			"x" : 125, 
+			"y" : 230
+		}
+	},
+	"highscores": {
+		"class" : "GuiButton",
+		"params" : {
+			"parent" : "menuContainer",
+			"normal" : {"image" : "FinalArt/Menu/Main/Button1.png",
+				"label" : {
+					"style" : "gameButton victoriana-normal",
+					"text" : "Scores",
+					"fontSize" : 35,
+					"color" : "#01B5FF",
+					"y" : "45%"
+				}},
+			"hover" : {"image" : "FinalArt/Menu/Main/Button1.png",
+						"scale" : 115,
+				"label" : {
+				}},
+			"style" : "gameButton",
+			"width" : 219,
+			"height" : 82, 
+			"x" : 325, 
+			"y" : 380,
+			"hide" : true
+		}
+	},
+	"help": {
+		"class" : "GuiButton",
+		"params" : {
+			"parent" : "menuContainer",
+			"normal" : {"image" : "FinalArt/Menu/Main/FAQ.png"},
+			"hover" : {"image" : "FinalArt/Menu/Main/FAQ.png",
+						"scale" : 115},
+			"style" : "gameButton",
+			"width" : 82,
+			"height" : 70, 
+			"x" : 525, 
+			"y" : 230
+		}
+	},
+	"soundOn": {
+		"class" : "GuiButton",
+		"params" : {
+			"parent" : "menuContainer",
+			"normal" : {"image" : "FinalArt/Menu/Main/SoundOn.png"},
+			"hover" : {"image" : "FinalArt/Menu/Main/SoundOn.png",
+						"scale" : 115},
+			"style" : "gameButton",
+			"width" : 82,
+			"height" : 70, 
+			"x" : 638, 
+			"y" : 230
+		}
+	},
+	"soundOff": {
+		"class" : "GuiButton",
+		"params" : {
+			"parent" : "menuContainer",
+			"normal" : {"image" : "FinalArt/Menu/Main/SoundOff.png"},
+			"hover" : {"image" : "FinalArt/Menu/Main/SoundOff.png",
+						"scale" : 115},
+			"style" : "gameButton",
+			"width" : 82,
+			"height" : 70, 
+			"x" : 638, 
+			"y" : 230
+		}
+	}
+}

@@ -1,0 +1,865 @@
+{
+	"BallExplosion_1" : {
+		"class" : "Effect",
+		"visuals" : {
+			"explosion" : {
+				"class" : "GuiSprite",
+				"width" : 80,
+				"style" : "sprite",
+				"height" : 58,
+				"totalImage" : "FinalArt/Explosion/ExplosionHit.png",
+				"totalImageWidth" : 720,
+				"totalImageHeight" : 117,
+				"totalTile" : 1,
+				"spriteAnimations" : {
+					"explosion" : { "frames" : [ 0, 1, 2, 3, 4, 5,
+									6, 7, 8, 9, 10, 11, 12, 13, 14 ],
+									"row" : 0 }
+				}
+			}
+		},
+		"lifeTime" : 1000
+	},
+	"BigBlockDestruction" : {
+		"class" : "Effect",
+		"visuals" : {
+			"destruction" : {
+				"class" : "GuiSprite",
+				"width" : 40,
+				"style" : "sprite",
+				"height" : 32,
+				"totalImage" : "FinalArt/Castles/BricksBreak.png",
+				"totalImageWidth" : 174,
+				"totalImageHeight" : 32,
+				"totalTile" : 1,
+				"spriteAnimations" : {
+					"destruction" : { "frames" : [ 0, 1, 2, 3 ], "row" : 0 }
+				}
+			}
+		},
+		"lifeTime" : 500
+	},
+	"SmallBlockDestruction" : {
+		"class" : "Effect",
+		"visuals" : {
+			"destruction" : {
+				"class" : "GuiSprite",
+				"width" : 20,
+				"style" : "sprite",
+				"height" : 20,
+				"totalImage" : "FinalArt/Castles/BricksSmallBreak.png",
+				"totalImageWidth" : 80,
+				"totalImageHeight" : 20,
+				"totalTile" : 1,
+				"spriteAnimations" : {
+					"destruction" : {
+						"frames" : [ 0, 1, 2, 3  ],	"row" : 0 }
+				}
+			}
+		},
+		"lifeTime" : 500
+	},
+	"BackWall" : {
+		"class" : "Block",
+		"visuals"  : {
+			"wall" : {
+				"class" : "GuiSprite",
+				"width" : 132,
+				"height" : 94,
+				"totalImage" : "FinalArt/Castles/CastleBack_001.png",
+				"totalImageWidth" : 132,
+				"totalImageHeight" : 94,
+				"totalTile" : 1,
+				"z" : -1
+			}
+		}
+	},
+	"SmallBlock_1" : {
+		"class" : "Block",
+		"visuals" : {
+			"block" : {
+				"class" : "GuiSprite",
+				"width" : 30,
+				"height" : 26,
+				"totalImage" : "FinalArt/Castles/BrickSmall001.png",
+				"totalImageWidth" : 90,
+				"totalImageHeight" : 26,
+				"totalTile" : 1,
+				"spriteAnimations" : {
+					"normal" : { "frames" : [ 0 ], "row" : 0 },
+					"first"  : { "frames" : [ 1 ], "row" : 0 },
+					"last"   : { "frames" : [ 2 ], "row" : 0 }
+				}
+			}
+		},
+		"physics" : {
+			"type" : "Box",
+			"x" : 9,
+			"y" : 5,
+			"width" : 16,
+			"height" : 15,
+			"restitution" : 0.1,
+			"friction" : 0.05,
+			"linearDamping" : 0.06,
+			"density" : 0.1,
+			"material" : "stone",
+			"health" : 80,
+			"destructable" : true,
+			"destructionLevels" : [{"minHealth" : 100, "animName" : "normal"}, 
+								   {"minHealth" : 75,  "animName" : "first" },
+								   {"minHealth" : 25,  "animName" : "last"  }]
+		}				
+	},
+	"Ground" : {
+		"class" : "Ground",
+		"visuals" : {
+		},
+		"physics" : {
+			"type" : "Box",
+			"x" : 9,
+			"y" : 5,
+			"width" : 1138,
+			"height" : 50,
+			"static" : true,
+			"restitution" : 0.01,
+			"friction" : 0.55,
+			"linearDamping" : 0.06,
+			"material" : "ground"
+		}				
+	},
+	"SmallBlock_2" : {
+		"class" : "Block",
+		"visuals" : {
+			"block" : {
+				"class" : "GuiSprite",
+				"width" : 30,
+				"height" : 26,
+				"totalImage" : "FinalArt/Castles/BrickSmall002.png",
+				"totalImageWidth" : 90,
+				"totalImageHeight" : 26,
+				"totalTile" : 1,
+				"spriteAnimations" : {
+					"normal" : { "frames" : [ 0 ], "row" : 0 },
+					"first"  : { "frames" : [ 1 ], "row" : 0 },
+					"last"   : { "frames" : [ 2 ], "row" : 0 }
+				}
+			}
+		},
+		"physics" : {
+			"type" : "Box",
+			"x" : 9,
+			"y" : 5,
+			"width" : 16,
+			"height" : 15,
+			"restitution" : 0.1,
+			"friction" : 0.05,
+			"linearDamping" : 0.06,
+			"density" : 0.1,
+			"material" : "stone",
+			"health" : 100,
+			"destructable" : true,
+			"destructionLevels" : [{"minHealth" : 100, "animName" : "normal"}, 
+								   {"minHealth" : 75,  "animName" : "first" },
+								   {"minHealth" : 25,  "animName" : "last"  }]
+		}		
+	},
+	"SmallBlock_3" : {
+		"class" : "Block",
+		"visuals" : {
+			"block" : {
+				"class" : "GuiSprite",
+				"width" : 30,
+				"height" : 26,
+				"totalImage" : "FinalArt/Castles/BrickSmall003.png",
+				"totalImageWidth" : 90,
+				"totalImageHeight" : 26,
+				"totalTile" : 1,
+				"spriteAnimations" : {
+					"normal" : { "frames" : [ 0 ], "row" : 0 },
+					"first"  : { "frames" : [ 1 ], "row" : 0 },
+					"last"   : { "frames" : [ 2 ], "row" : 0 }
+				}
+			}
+		},
+		"physics" : {
+			"type" : "Box",
+			"x" : 9,
+			"y" : 5,
+			"width" : 16,
+			"height" : 15,
+			"restitution" : 0.01,
+			"linearDamping" : 0.06,
+			"friction" : 0.05,
+			"density" : 0.1,
+			"material" : "stone",
+			"health" : 100,
+			"destructable" : true,
+			"destructionLevels" : [{"minHealth" : 100, "animName" : "normal"}, 
+								   {"minHealth" : 75,  "animName" : "first" },
+								   {"minHealth" : 25,  "animName" : "last"  }]
+		}			
+	},
+	"BigBlock_1" : {
+		"class" : "Block",
+		"visuals" : {
+			"block" : {
+				"class" : "GuiSprite",
+				"width" : 49.5,
+				"height" : 42,
+				"totalImage" : "FinalArt/Castles/Brick001.png",
+				"totalImageWidth" : 157,
+				"totalImageHeight" : 42,
+				"totalTile" : 1,
+				"spriteAnimations" : {
+					"normal" : { "frames" : [ 0 ], "row" : 0 },
+					"first"  : { "frames" : [ 1 ], "row" : 0 },
+					"last"   : { "frames" : [ 2 ], "row" : 0 }
+				}
+			}
+		},
+		"physics" : {
+			"type" : "Box",
+			"x" : 9,
+			"y" : 5,
+			"width" : 39.5,
+			"height" : 32,
+			"restitution" : 0.01,
+			"friction" : 0.1,
+			"linearDamping" : 0.1,
+			"density" : 0.3,
+			"material" : "stone",
+			"health" : 200,
+			"destructable" : true,
+			"destructionLevels" : [{"minHealth" : 200, "animName" : "normal"}, 
+								   {"minHealth" : 150,  "animName" : "first" },
+								   {"minHealth" : 50,  "animName" : "last"  }]
+		}
+	},
+	"BigBlock_2" : {
+		"class" : "Block",
+		"visuals" : {
+			"block" : {
+				"class" : "GuiSprite",
+				"width" : 49.5,
+				"height" : 42,
+				"totalImage" : "FinalArt/Castles/Brick002.png",
+				"totalImageWidth" : 157,
+				"totalImageHeight" : 42,
+				"totalTile" : 1,
+				"spriteAnimations" : {
+					"normal" : { "frames" : [ 0 ], "row" : 0 },
+					"first"  : { "frames" : [ 1 ], "row" : 0 },
+					"last"   : { "frames" : [ 2 ], "row" : 0 }
+				}
+			}
+		},
+		"physics" : {
+			"friction" : 0.1,
+			"type" : "Box",
+			"x" : 9,
+			"y" : 5,
+			"width" : 39.5,
+			"height" : 32,
+			"restitution" : 0.01,
+			"linearDamping" : 0.1,
+			"density" : 0.3,
+			"material" : "stone",
+			"health" : 200,
+			"destructable" : true,
+			"destructionLevels" : [{"minHealth" : 200, "animName" : "normal"}, 
+								   {"minHealth" : 150,  "animName" : "first" },
+								   {"minHealth" : 50,  "animName" : "last"  }]
+		}	
+	},
+	"BigBlock_3" : {
+		"class" : "Block",
+		"visuals" : {
+			"block" : {
+				"class" : "GuiSprite",
+				"width" : 49.5,
+				"height" : 42,
+				"totalImage" : "FinalArt/Castles/Brick003.png",
+				"totalImageWidth" : 157,
+				"totalImageHeight" : 42,
+				"totalTile" : 1,
+				"spriteAnimations" : {
+					"normal" : { "frames" : [ 0 ], "row" : 0 },
+					"first"  : { "frames" : [ 1 ], "row" : 0 },
+					"last"   : { "frames" : [ 2 ], "row" : 0 }
+				}
+			}
+		},
+		"physics" : {
+			"friction" : 0.1,
+			"type" : "Box",
+			"x" : 9,
+			"y" : 5,
+			"width" : 39.5,
+			"height" : 32,
+			"restitution" : 0.01,
+			"linearDamping" : 0.1,
+			"density" : 0.3,
+			"material" : "stone",
+			"health" : 200,
+			"destructable" : true,
+			"destructionLevels" : [{"minHealth" : 200, "animName" : "normal"}, 
+								   {"minHealth" : 150,  "animName" : "first" },
+								   {"minHealth" : 50,  "animName" : "last"  }]
+		}		
+	},
+	"WindowBlock" : {
+		"class" : "Block",
+		"visuals" : {
+			"block" : {
+				"class" : "GuiSprite",
+				"width" : 49.5,
+				"height" : 42,
+				"totalImage" : "FinalArt/Castles/Brick004.png",
+				"totalImageWidth" : 157,
+				"totalImageHeight" : 42,
+				"totalTile" : 1,
+				"spriteAnimations" : {
+					"normal" : { "frames" : [ 0 ], "row" : 0 },
+					"first"  : { "frames" : [ 1 ], "row" : 0 },
+					"last"   : { "frames" : [ 2 ], "row" : 0 }
+				}
+			}
+		},
+		"physics" : {
+			"type" : "Box",
+			"x" : 9,
+			"y" : 5,
+			"width" : 39,
+			"height" : 32,
+			"restitution" : 0.01,
+			"linearDamping" : 0.1,
+			"density" : 0.3,
+			"friction" : 0.05,
+			"material" : "stone",
+			"health" : 100,
+			"destructable" : true,
+			"destructionLevels" : [{"minHealth" : 100, "animName" : "normal"}, 
+								   {"minHealth" : 75,  "animName" : "first" },
+								   {"minHealth" : 25,  "animName" : "last"  }]
+		}			
+	},
+	"RedTowerRoof" : {
+		"class" : "Block",
+		"visuals" : {
+			"roof" : {
+				"class" : "GuiSprite",
+				"width" : 45,
+				"height" : 25,
+				"totalImage" : "FinalArt/Castles/RedRoof.png",
+				"totalImageWidth" : 330,
+				"totalImageHeight" : 25,
+				"totalTile" : 1,
+				"spriteAnimations" : {
+					"normal" : { "frames" : [ 0 ], "row" : 0 },
+					"first"  : { "frames" : [ 1 ], "row" : 0 },
+					"last"   : { "frames" : [ 2 ], "row" : 0 },
+					"dest"	 : { "frames" : [3, 4, 5, 6 ], 
+												   "row" : 0 }
+				}
+			}
+		},
+		"physics" : {
+			"type" : "Triangle",
+			"vertices" : [ {
+			"x" : 23,
+			"y" : 0
+		}, {
+			"x" : 43,
+			"y" : 23
+		}, {
+			"x" : 0,
+			"y" : 23
+		}],
+			"x" : -1,
+			"y" : 4,
+			"width" : 45,
+			"height" : 23,
+			"restitution" : 0.3,
+			"linearDamping" : 0.05,
+			"friction" : 0.05,
+			"density" : 0.2,
+			"health" : 100,
+			"destructable" : true,
+			"destructionLevels" : [{"minHealth" : 100, "animName" : "normal"}, 
+								   {"minHealth" : 75,  "animName" : "first" },
+								   {"minHealth" : 25,  "animName" : "last"  },
+								   {"minHealth" : 0,   "animName" : "dest"  }]
+		},
+		"builtInDestruction" : true		
+	},
+	"BigColumn" : {
+		"class" : "Block",
+		"visuals" : {
+			"column" : {
+				"class" : "GuiSprite",
+				"width" : 107,
+				"height" : 25,
+				"totalImage" : "FinalArt/Castles/ColumnBig.png",
+				"totalImageWidth" : 221,
+				"totalImageHeight" : 98,
+				"totalTile" : 1,
+				"spriteAnimations" : {
+					"normal" : { "frames" : [ 0 ], "row" : 0 },
+					"first"  : { "frames" : [ 1 ], "row" : 0 },
+					"last"   : { "frames" : [ 2 ], "row" : 0 },
+					"dest"	 : { "frames" : [3, 4, 5, 6 ], 
+												   "row" : 0 }
+				}
+			}
+		},
+		"physics" : {
+			"type" : "Box",
+			"x" : 9.5,
+			"y" : 5,
+			"width" : 95.5,
+			"height" : 14,
+			"restitution" : 0.4,
+			"friction" : 0.1,
+			"linearDamping" : 0.05,
+			"density" : 0.03,
+			"health" : 200,
+			"destructable" : true,
+			"destructionLevels" : [{"minHealth" : 175, "animName" : "normal"}, 
+								   {"minHealth" : 145,  "animName" : "first" },
+								   {"minHealth" : 75,  "animName" : "last"  },
+								   {"minHealth" : 0,   "animName" : "dest"  }]
+		},
+		"builtInDestruction" : true			
+	},
+	"SmallColumn" : {
+		"class" : "Block",
+		"visuals" : {
+			"column" : {
+				"class" : "GuiSprite",
+				"width" : 72,
+				"height" : 20,
+				"totalImage" : "FinalArt/Castles/ColumnSmall.png",
+				"totalImageWidth" : 225,
+				"totalImageHeight" : 61,
+				"totalTile" : 1,
+				"spriteAnimations" : {
+					"normal" : { "frames" : [ 0 ], "row" : 0 },
+					"first"  : { "frames" : [ 1 ], "row" : 0 },
+					"last"   : { "frames" : [ 2 ], "row" : 0 },
+					"dest"	 : { "frames" : [3, 4, 5, 6 ], 
+												   "row" : 0 }
+				}
+			}
+		},
+		"physics" : {
+			"type" : "Box",
+			"x" : 9,
+			"y" : 5,
+			"width" : 62,
+			"height" : 10,
+			"restitution" : 0.4,
+			"friction" : 0.1,
+			"linearDamping" : 0.05,
+			"density" : 0.03,
+			"health" : 100,
+			"destructable" : true,
+			"destructionLevels" : [{"minHealth" : 100, "animName" : "normal"}, 
+								   {"minHealth" : 75,  "animName" : "first" },
+								   {"minHealth" : 25,  "animName" : "last"  },
+								   {"minHealth" : 0,   "animName" : "dest"  }]
+		},
+		"builtInDestruction" : true	
+	},
+	"WoodBox" : {
+		"class" : "Block",
+		"visuals" : {
+			"box" : {
+				"class" : "GuiSprite",
+				"width" : 35,
+				"height" : 28,
+				"totalImage" : "FinalArt/Castles/WoodBox.png",
+				"totalImageWidth" : 256,
+				"totalImageHeight" : 32,
+				"totalTile" : 1,
+				"spriteAnimations" : {
+					"normal" : { "frames" : [ 0 ], "row" : 0 },
+					"first"  : { "frames" : [ 1 ], "row" : 0 },
+					"last"   : { "frames" : [ 2 ], "row" : 0 },
+					"dest"	 : { "frames" : [3, 4, 5, 6 ], 
+												   "row" : 0 }
+				}
+			}
+		},
+		"physics" : {
+			"type" : "Box",
+			"x" : 0,
+			"y" : 0,
+			"width" : 32,
+			"height" : 28,
+			"restitution" : 0.3,
+			"linearDamping" : 0.08,
+			"density" : 0.03,
+			"friction" : 0.05,
+			"health" : 76,
+			"destructable" : true,
+			"destructionLevels" : [{"minHealth" : 100, "animName" : "normal"}, 
+								   {"minHealth" : 75,  "animName" : "first" },
+								   {"minHealth" : 25,  "animName" : "last"  },
+								   {"minHealth" : 0,   "animName" : "dest"  }]
+		},
+		"builtInDestruction" : true		
+	},
+	"WoodPlankBig" : {
+		"class" : "Block",
+		"visuals" : {
+			"plank" : {
+				"class" : "GuiSprite",
+				"width" : 99,
+				"height" : 20,
+				"totalImage" : "FinalArt/Castles/WoodPlankBig.png",
+				"totalImageWidth" : 610,
+				"totalImageHeight" : 20,
+				"totalTile" : 1,
+				"spriteAnimations" : {
+					"normal" : { "frames" : [ 0 ], "row" : 0 },
+					"first"  : { "frames" : [ 1 ], "row" : 0 },
+					"last"   : { "frames" : [ 2 ], "row" : 0 },
+					"dest"	 : { "frames" : [3, 4, 5, 6 ], 
+												   "row" : 0 }
+				}
+			}
+		},
+		"physics" : {
+			"type" : "Box",
+			"x" : 0,
+			"y" : 0,
+			"width" : 96,
+			"height" : 15,
+			"restitution" : 0.3,
+			"linearDamping" : 0.05,
+			"friction" : 0.1,
+			"density" : 0.02,
+			"health" : 76,
+			"destructable" : true,
+			"destructionLevels" : [{"minHealth" : 100, "animName" : "normal"}, 
+								   {"minHealth" : 75,  "animName" : "first" },
+								   {"minHealth" : 25,  "animName" : "last"  },
+								   {"minHealth" : 0,   "animName" : "dest"  }]
+		},
+		"builtInDestruction" : true		
+	},
+	"WoodPlankThin" : {
+		"class" : "Block",
+		"visuals" : {
+			"plank" : {
+				"class" : "GuiSprite",
+				"width" : 73,
+				"height" : 6,
+				"totalImage" : "FinalArt/Castles/WoodPlankThin.png",
+				"totalImageWidth" : 530,
+				"totalImageHeight" : 10,
+				"totalTile" : 1,
+				"spriteAnimations" : {
+					"normal" : { "frames" : [ 0 ], "row" : 0 },
+					"first"  : { "frames" : [ 1 ], "row" : 0 },
+					"last"   : { "frames" : [ 2 ], "row" : 0 },
+					"dest"	 : { "frames" : [3, 4, 5, 6 ], 
+												   "row" : 0 }
+				}
+			}
+		},
+		"physics" : {
+			"type" : "Box",
+			"x" : 0,
+			"y" : 1,
+			"width" : 71,
+			"height" : 5,
+			"restitution" : 0.36,
+			"friction" : 0.05,
+			"linearDamping" : 0.05,
+			"density" : 0.02,
+			"health" : 76,
+			"destructable" : true,
+			"destructionLevels" : [{"minHealth" : 100, "animName" : "normal"}, 
+								   {"minHealth" : 75,  "animName" : "first" },
+								   {"minHealth" : 25,  "animName" : "last"  },
+								   {"minHealth" : 0,   "animName" : "dest"  }]
+		},
+		"builtInDestruction" : true		
+	},
+	"WoodPlankSmall" : {
+		"class" : "Block",
+		"visuals" : {
+			"plank" : {
+				"class" : "GuiSprite",
+				"width" : 47,
+				"height" : 12,
+				"totalImage" : "FinalArt/Castles/WoodPlankSmall.png",
+				"totalImageWidth" : 350,
+				"totalImageHeight" : 18,
+				"totalTile" : 1,
+				"spriteAnimations" : {
+					"normal" : { "frames" : [ 0 ], "row" : 0 },
+					"first"  : { "frames" : [ 1 ], "row" : 0 },
+					"last"   : { "frames" : [ 2 ], "row" : 0 },
+					"dest"	 : { "frames" : [3, 4, 5, 6 ], 
+												   "row" : 0 }
+				}
+			}
+		},
+		"physics" : {
+			"type" : "Box",
+			"x" : 0,
+			"y" : 0,
+			"width" : 44,
+			"height" : 12,
+			"restitution" : 0.6,
+			"linearDamping" : 0.03,
+			"friction" : 0.05,
+			"density" : 0.02,
+			"health" : 76,
+			"destructable" : true,
+			"destructionLevels" : [{"minHealth" : 100, "animName" : "normal"}, 
+								   {"minHealth" : 75,  "animName" : "first" },
+								   {"minHealth" : 25,  "animName" : "last"  },
+								   {"minHealth" : 0,   "animName" : "dest"  }]
+		},
+		"builtInDestruction" : true		
+	},
+	"EnemySoldier" : {
+		"class" : "Soldier",
+		"visuals" : {
+			"soldier" : {
+				"class" : "GuiSprite",
+				"width" : 78, 
+				"height" : 84,
+				"totalImage" : "FinalArt/Soldiers/EnemySheet.png",
+				"totalImageWidth" : 234,
+				"totalImageHeight" : 84,
+				"totalTile" : 1,
+				"type" : "EnemySoldier",
+				"spriteAnimations" : {
+					"normal" : 		{ "frames" : [ 0 ],	"row" : 0 },
+					"surprised" :	{ "frames" : [ 1 ],	"row" : 0 },
+					"dead" : 		{ "frames" : [ 2 ],	"row" : 0 }
+				}
+			}
+		},
+		"physics" : {
+			"type" : "PrimitiveComposite",
+			"scale" : 0.75,
+			"x" : 25,
+			"y" : 20,
+			"width" : 40,
+			"height" : 45,
+			"shapes" : {
+				"head" : {
+					"type" : "Box",
+					"x" : 31.5,
+					"y" : 14.25,
+					"width" : 38,
+					"height" : 26,
+					"restitution" : 0.4,
+					"linearDamping" : 0.05,
+					"friction" : 0.6,
+					"density" : 0.08
+				},
+				"body" : {
+					"type" : "Box",
+					"x" : 31.5,
+					"y" : 33.75,
+					"width" : 22.5,
+					"height" : 15,
+					"restitution" : 0.4,
+					"linearDamping" : 0.05,
+					"friction" : 0.6,
+					"density" : 0.08
+				},
+				"bottom" : {
+					"type" : "Box",
+					"x" : 29,
+					"y" : 52,
+					"width" : 18.75,
+					"height" : 22,
+					"restitution" : 0.4,
+					"linearDamping" : 0.05,
+					"friction" : 0.6,
+					"density" : 0.08
+				}
+			}
+		}			
+	},
+	"PrisonerSoldier" : {
+		"class" : "Soldier",
+		"visuals" : {
+			"soldier" : {
+				"class" : "GuiSprite",
+				"width" : 78, 
+				"height" : 84,
+				"totalImage" : "FinalArt/Soldiers/Prisoner.png",
+				"totalImageWidth" : 312,
+				"totalImageHeight" : 84,
+				"totalTile" : 1,
+				"type" : "PrisonerSoldier",
+				"spriteAnimations" : {
+					"happy" : 		{ "frames" : [ 0 ],	"row" : 0 },
+					"normal" : 		{ "frames" : [ 1 ],	"row" : 0 },
+					"surprised" :	{ "frames" : [ 2 ],	"row" : 0 },
+					"dead" : 		{ "frames" : [ 3 ],	"row" : 0 }
+				}
+			}
+		},
+		"physics" : {
+			"type" : "PrimitiveComposite",
+			"scale" : 0.75,
+			"x" : 25,
+			"y" : 20,
+			"width" : 40,
+			"height" : 45,
+			"shapes" : {
+				"head" : {
+					"type" : "Box",
+					"x" : 31.5,
+					"y" : 14.25,
+					"width" : 38,
+					"height" : 26,
+					"restitution" : 0.4,
+					"linearDamping" : 0.05,
+					"friction" : 0.6,
+					"density" : 0.08
+				},
+				"body" : {
+					"type" : "Box",
+					"x" : 31.5,
+					"y" : 33.75,
+					"width" : 22.5,
+					"height" : 15,
+					"restitution" : 0.4,
+					"linearDamping" : 0.05,
+					"friction" : 0.6,
+					"density" : 0.08
+				},
+				"bottom" : {
+					"type" : "Box",
+					"x" : 29,
+					"y" : 52,
+					"width" : 18.75,
+					"height" : 22,
+					"restitution" : 0.4,
+					"linearDamping" : 0.05,
+					"friction" : 0.6,
+					"density" : 0.08
+				}
+			}
+		}			
+	},
+	"Cannon" : {
+		"class" : "Cannon",
+		"width" : 200,
+		"visuals" : {
+			"cannonier" : {
+				"class" : "GuiSprite",
+				"width" : 76.5,
+				"height" : 82.5,
+				"totalImage" : "FinalArt/Soldiers/Cannonier_new.png",
+				"totalImageWidth" : 306,
+				"totalImageHeight" : 82.5,
+				"totalTile" : 1,
+				"spriteAnimations" : {
+					"getReady" : { "frames" : [ 0 ], "row" : 0 },
+					"fire" 	   : { "frames" : [ 0, 1, 2, 3 ],
+													 "row" : 0 }
+				}
+			},
+			"farWheel" : {
+				"class" : "GuiSprite",
+				"width" : 29,
+				"height" : 29,
+				"totalImage" : "FinalArt/Cannon/BackWheel001.png",
+				"totalImageWidth" : 29,
+				"totalImageHeight" : 29,
+				"totalTile" : 1,
+				"x" : 70,
+				"y" : 46
+			},
+			"barrel" : {
+				"class" : "GuiSprite",
+				"width" : 146,
+				"height" : 41,
+				"totalImage" : "FinalArt/Cannon/BarrelBigSheet.png",
+				"totalImageWidth" : 653,
+				"totalImageHeight" : 164,
+				"totalTile" : 1,
+				"x" : 49,
+				"y" : 23,
+				"spriteAnimations" : {
+					"getReady" : { "frames" : [ 0 ], "row" : 0 },
+					"fireStart" 	   : { "frames" : [ 0, 1, 2, 3, 5 ],	
+													 "row" : 0 },
+					"fireEnd" 	   : { "frames" : [  6, 7, 8, 
+									9, 10, 11, 12, 0 ],	
+													 "row" : 0 }
+				}		
+			},
+			"nearWheel" : {
+				"class" : "GuiSprite",
+				"width" : 61,
+				"height" : 33,
+				"totalImage" : "FinalArt/Cannon/BodyWheel.png",
+				"totalImageWidth" : 61,
+				"totalImageHeight" : 33,
+				"totalTile" : 1,
+				"x" : 33,
+				"y" : 46
+			},
+			"powerLine" : {
+				"class" : "GuiSprite",
+				"width" : 88,
+				"height" : 56,
+				"totalImage" : "FinalArt/Cannon/Power001.png",
+				"totalImageWidth" : 88,
+				"totalImageHeight" : 56,
+				"totalTile" : 1,
+				"x" : 119,
+				"y" : 17,
+				"visible" : false	
+			}
+		}
+	},
+	"CannonBall_1" : {
+		"class" : "CannonBall",
+		"visuals" : {
+			"cannonBall" : {
+				"class" : "GuiSprite",
+				"width" : 18,
+				"height" : 19,
+				"totalImage" : "FinalArt/CannonBalls/cannonball.png",
+				"totalImageWidth" : 18,
+				"totalImageHeight" : 19,
+				"totalTile" : 1
+			},	
+			"trace" : {
+				"class" : "GuiSprite",
+				"width" : 7,
+				"height" : 7,
+				"totalImage" : "FinalArt/CannonBalls/PointCloud001.png",
+				"totalImageWidth" : 7,
+				"totalImageHeight" : 7,
+				"totalTile" : 1,
+				"x" : 5,
+				"y" : 0
+			}
+		},
+		"physics" : {
+			"type" : "Circle",					
+			"x" : 0,
+			"y" : 0,
+			"width" : 18,
+			"height" : 19,
+			"radius" : 9,
+			"restitution" : 0.2,
+			"linearDamping" : 0.01,
+			"density" : 0.1
+		}
+	}
+}

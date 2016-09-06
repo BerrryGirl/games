@@ -1,0 +1,69 @@
+{
+	"enhancedScene": {
+		"class" : "GuiDiv",
+		"params" : {
+			"parent" : "#root",
+			"background": {
+				"image" : "FinalArt/Menu/LevelSelect/Sheet2.png"
+			},
+			"style" : "enhancedScene",
+			"enhancedScene" : true
+		}
+	},
+	"menuContainer": {
+		"class" : "GuiDiv",
+		"params" : {
+			"parent" : "enhancedScene",
+			"style" : "mainScene",
+			"innerScene" : true
+		}
+	},
+	"score": {
+		"class" : "GuiButton",
+		"params" : {
+			"parent" : "menuContainer",
+			"normal" : {"image" : "FinalArt/Menu/LevelSelect/ScoreCell001.png",
+				"label" : {
+					"style" : "gameButton victoriana-normal",
+					"text" : "",
+					"fontSize" : 30,
+					"color" : "#01B5FF",
+					"y" : "45%"
+				}},
+			"hover" : {"image" : "FinalArt/Menu/LevelSelect/ScoreCell001.png",
+						"scale" : 115},
+			"style" : "gameButton",
+			"width" : 197,
+			"height" : 58, 
+			"x" : 301, 
+			"y" : 10
+		}
+	},
+	"menu": {
+		"class" : "GuiButton",
+		"params" : {
+			"parent" : "menuContainer",
+			"normal" : {"image" : "FinalArt/Menu/Main/Button1.png",
+				"label" : {
+					"style" : "gameButton victoriana-normal",
+					"text" : "Menu",
+					"fontSize" : 30,
+					"color" : "#01B5FF",
+					"y" : "45%"
+				}},
+			"hover" : {"image" : "FinalArt/Menu/Main/Button1.png",
+						"scale" : 115,
+				"label" : {
+					"style" : "gameButton victoriana-normal",
+					"text" : "Menu",
+					"fontSize" : 30,
+					"color" : "#01B5FF"
+				}},
+			"style" : "gameButton",
+			"width" : 219,
+			"height" : 82, 
+			"x" : 290, 
+			"y" : 420
+		}
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"enhancedScene": {
+		"class" : "GuiDiv",
+		"params" : {
+			"parent" : "#root",
+			"background": {
+				"image" : "menuBackground.png"
+			},
+			"style" : "enhancedScene",
+			"enhancedScene" : true
+		}
+	},
+	"menuContainer": {
+		"class" : "GuiDiv",
+		"params" : {
+			"parent" : "enhancedScene",
+			"style" : "mainScene",
+			"innerScene" : true
+		}
+	},
+	"menu":{
+		"class" : "GuiButton",
+		"params" : {
+			"parent" : "menuContainer",
+			"normal" : {"image" : "menu.png"},
+			"hover" : {"image" : "menu.png",
+						"scale" : 115},
+			"style" : "gameButton",
+			"width" : 145,
+			"height" : 80, 
+			"x" : 545,
+			"y" : 406
+		}
+	}
+}
